@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spend Elon Musk Fortune!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/iconmonstr-banknote-15.svg" />
+  </head>
+
+  <header>
+    <img src="img/elon-musk-june-09-2015-260nw-398236087.jpg" alt="" />
+    <div class="title-container">
+      <h1>Spend Elon Musk Fortune!</h1>
+      <p>
+        If Elon cashed out all of his stocks today he would have <br />
+        approximately <strong>$164,000,000,000</strong> (US Dollars) in his bank
+        account.
+      </p>
+      <p>¿What would you spend it on?</p>
+      <small>Have your recipt at the end!</small>
+    </div>
+  </header>
+  <div class="total">
+    <p class="totalMoney" id="totalMoney">Total: $164,000,000,000</p>
+    <p class="percentageLeft" id="percentageLeft">You still have: 100% left</p>
+  </div>
+
+  <div class="app-container" id="allElements">
+    <!-- element 1 -->
+    <div class="element">
+      <img src="img/steam.jpg" alt="steam" />
+      <p>All Steam library (2021)</p>
+      <span id="price"> USD 641,000</span>
+      <div class="buyAndSellContainer" data-price="641000">
+        <button id="sell" disabled>Sell</button> <span id="amount">0</span>
+        <button id="buy">Buy</button>
+      </div>
+    </div>
+
+    <!-- element 2 -->
+    <div class="element">
+      <img src="img/Principal_Ferrari.jpg" alt="ferrari" />
+      <p>Ferrari F12</p>
+      <span id="price"> USD 271,000</span>
+      <div class="buyAndSellContainer" data-price="271000">
+        <button id="sell" disabled>Sell</button> <span id="amount">0</span>
+        <button id="buy">Buy</button>
+      </div>
+    </div>
+
+    <!-- element 3 -->
+    <div class="element">
+      <img src="img/apartment.jsp.jpg" alt="apartment" />
+      <p>Luxury apartment</p>
+      <span id="price">USD 1,271,000</span>
+      <div class="buyAndSellContainer" data-price="1271000">
+        <button id="sell" disabled>Sell</button> <span id="amount">0</span>
+        <button id="buy">Buy</button>
+      </div>
+    </div>
+  </div>
+  <body>
+    <script src="code.js"></script>
+  </body>
+</html>

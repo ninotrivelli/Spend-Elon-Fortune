@@ -1,0 +1,122 @@
+/* Global font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 40vh;
+}
+
+header img {
+  margin-bottom: 2rem;
+}
+
+.title-container {
+  text-align: center;
+
+  padding: 2rem;
+  width: 100%;
+}
+
+.title-container h1 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+.title-container p {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.title-container small {
+  font-size: 1.3rem;
+}
+
+.total {
+  background-color: #d6d8e6;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  position: sticky;
+  top: 0;
+}
+
+.totalMoney {
+  font-size: 2.4rem;
+  margin: 0 2rem;
+}
+.percentageLeft {
+  font-size: 2.4rem;
+  margin: 0 2rem;
+}
+
+.app-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.element {
+  max-width: 380px;
+  margin: 2rem 5rem;
+  object-fit: cover;
+  text-align: center;
+  background-color: #d6d8e6;
+  border-radius: 5px;
+}
+
+.element img {
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.element p {
+  font-size: 1.8rem;
+}
+
+.element span {
+  font-size: 2rem;
+}
+
+.buyAndSellContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  padding: 1.5rem 2rem;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  border-radius: 5px;
+  margin: 1.5rem;
+  background-color: white;
+}
+
+#sell:hover {
+  background-color: rgb(253, 201, 192);
+}
+
+#buy:hover {
+  background-color: rgb(197, 253, 192);
+}
