@@ -146,3 +146,27 @@ button {
 .btn-buy:hover {
   background-color: rgb(204, 252, 200);
 }
+
+.receipt {
+  display: flex;
+  flex-direction: column;
+  min-height: 20vh;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.receipt h1 {
+  padding: 1rem;
+  font-size: 2.5rem;
+}
+
+.receipt p {
+  font-size: 2rem;
+}
+
+.totalRecipt {
+  font-size: 2.5rem;
+  text-decoration: underline;
+  padding: 1rem;
+}
