@@ -100,7 +100,7 @@ function sellItem(element) {
 }
 
 function updateTotalAndPercentage() {
-  totalMoneyElement.innerHTML = formatMoney(elonFortune) + ' USD';
+  totalMoneyElement.innerHTML = `Remaning: ${formatMoney(elonFortune)} USD`;
   percentageElement.innerHTML = `You only spent ${(
     100 - totalPercentage
   ).toFixed(6)} % of the total!`;
@@ -108,10 +108,7 @@ function updateTotalAndPercentage() {
 
 // Format Money Function
 function formatMoney(number) {
-  return number.toLocaleString('en-US', {
-    style: 'currency',
-    currency: 'USD',
-  });
+  return number.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, '$1,');
 }
 
 // Class to create unique receipt items
@@ -175,7 +172,8 @@ function updateReceipt() {
     }
   }
 
-  document.querySelector('#receipt-container').innerHTML = title + receipt;
+  document.querySelector('#receipt-container').innerHTML =
+    title + receipt + `<p class="totalRecipt">Total is: ${total}</p>`;
 
   // + `<p class="totalRecipt">Total:${total} </p> <br> <p>You stil have ${totalPercentage.toFixed(
   //   6
