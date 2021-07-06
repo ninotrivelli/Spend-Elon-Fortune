@@ -18,7 +18,7 @@
         approximately <strong>$164,000,000,000</strong> (US Dollars) in his bank
         account.
       </p>
-      <p>¿What would you spend it on?</p>
+      <p>¿What would you <strong>spend it</strong> on?</p>
       <small>Have your recipt at the end!</small>
     </div>
   </header>
@@ -31,11 +31,12 @@
     <!-- element 1 -->
     <div class="element">
       <img src="img/steam.jpg" alt="steam" />
-      <p>All Steam library (2021)</p>
+      <p>Entire Steam library (2021)</p>
       <span id="price"> USD 641,000</span>
       <div class="buyAndSellContainer" data-price="641000">
-        <button id="sell" disabled>Sell</button> <span id="amount">0</span>
-        <button id="buy">Buy</button>
+        <button class="btn-sell" id="sell" disabled>Sell</button>
+        <span id="amount">0</span>
+        <button class="btn-buy" id="buy">Buy</button>
       </div>
     </div>
 
@@ -45,8 +46,9 @@
       <p>Ferrari F12</p>
       <span id="price"> USD 271,000</span>
       <div class="buyAndSellContainer" data-price="271000">
-        <button id="sell" disabled>Sell</button> <span id="amount">0</span>
-        <button id="buy">Buy</button>
+        <button class="btn-sell" id="sell" disabled>Sell</button>
+        <span id="amount">0</span>
+        <button class="btn-buy" id="buy">Buy</button>
       </div>
     </div>
 
@@ -56,11 +58,14 @@
       <p>Luxury apartment</p>
       <span id="price">USD 1,271,000</span>
       <div class="buyAndSellContainer" data-price="1271000">
-        <button id="sell" disabled>Sell</button> <span id="amount">0</span>
-        <button id="buy">Buy</button>
+        <button class="btn-sell" id="sell" disabled>Sell</button>
+        <span id="amount">0</span>
+        <button class="btn-buy" id="buy">Buy</button>
       </div>
     </div>
   </div>
+
+  <div id="recpit-container"></div>
   <body>
     <script src="code.js"></script>
   </body>

@@ -20,10 +20,15 @@ header {
   flex-direction: column;
   align-items: center;
   min-height: 40vh;
+  color: #33373a;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 header img {
   margin-bottom: 2rem;
+  width: 250px;
 }
 
 .title-container {
@@ -46,12 +51,17 @@ header img {
 }
 
 .total {
-  background-color: #d6d8e6;
+  background: linear-gradient(
+    0deg,
+    rgba(104, 113, 120, 1) 0%,
+    rgba(83, 90, 95, 1) 100%
+  );
+  color: white;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding: 1.5rem;
+  padding: 1.8rem;
   position: sticky;
   top: 0;
 }
@@ -77,8 +87,16 @@ header img {
   margin: 2rem 5rem;
   object-fit: cover;
   text-align: center;
-  background-color: #d6d8e6;
+  background: linear-gradient(
+    0deg,
+    rgba(104, 113, 120, 1) 0%,
+    rgba(83, 90, 95, 1) 100%
+  );
+  color: white;
   border-radius: 5px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .element img {
@@ -113,10 +131,18 @@ button {
   background-color: white;
 }
 
-#sell:hover {
+.btn-buy {
+  background-color: rgb(158, 221, 153);
+}
+
+.btn-sell {
+  background-color: rgb(221, 153, 153);
+}
+
+.btn-sell:hover {
   background-color: rgb(253, 201, 192);
 }
 
-#buy:hover {
-  background-color: rgb(197, 253, 192);
+.btn-buy:hover {
+  background-color: rgb(204, 252, 200);
 }

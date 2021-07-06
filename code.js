@@ -14,8 +14,6 @@ let totalPercentage = 100;
 appContainer.addEventListener('click', (e) => {
   let element = e.target.parentElement;
 
-  console.log(element);
-
   if (e.target.id === 'buy') {
     buyItem(element);
   } else if (e.target.id === 'sell') {
@@ -75,3 +73,7 @@ function formatMoney(number) {
     currency: 'USD',
   });
 }
+
+// Function to create recipt
+
+function createRecpit() {}
