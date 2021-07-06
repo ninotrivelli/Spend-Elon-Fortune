@@ -103,7 +103,7 @@ function updateTotalAndPercentage() {
   totalMoneyElement.innerHTML = formatMoney(elonFortune) + ' USD';
   percentageElement.innerHTML = `You only spent ${(
     100 - totalPercentage
-  ).toFixed(4)} % of the total!`;
+  ).toFixed(6)} % of the total!`;
 }
 
 // Format Money Function
@@ -171,14 +171,13 @@ function updateReceipt() {
     let itemX = receiptItemsArr[i];
 
     if (itemX.amount !== 0) {
-      receipt += `<p>${itemX.name} x ${itemX.amount}......................${itemX.total}</p>`;
+      receipt += `<p>${itemX.name} x <strong> ${itemX.amount}</strong> ......................${itemX.total}</p>`;
     }
   }
 
-  document.querySelector('#receipt-container').innerHTML =
-    title +
-    receipt +
-    `<p class="totalRecipt">Total:${total} </p> <br> <p>You stil have ${totalPercentage.toFixed(
-      4
-    )} % of the total!</p>`;
+  document.querySelector('#receipt-container').innerHTML = title + receipt;
+
+  // + `<p class="totalRecipt">Total:${total} </p> <br> <p>You stil have ${totalPercentage.toFixed(
+  //   6
+  // )} % of the total!</p>`;
 }
