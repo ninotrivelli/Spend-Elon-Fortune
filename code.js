@@ -39,6 +39,7 @@ function buyItem(element) {
   if (Number(amountOfItems.textContent) > 0) {
     button.disabled = false;
   }
+
   updateTotalAndPercentage();
 
   // Create (if its new) or update recipt item(if it already exists)
@@ -174,8 +175,13 @@ function updateReceipt() {
 
   document.querySelector('#receipt-container').innerHTML =
     title + receipt + `<p class="totalRecipt">Total is: ${total}</p>`;
+}
 
-  // + `<p class="totalRecipt">Total:${total} </p> <br> <p>You stil have ${totalPercentage.toFixed(
-  //   6
-  // )} % of the total!</p>`;
+// Function to print
+function printSection(el) {
+  let getFullContent = document.body.innerHTML;
+  let printsection = document.getElementById(el).innerHTML;
+  document.body.innerHTML = printsection;
+  window.print();
+  document.body.innerHTML = getFullContent;
 }

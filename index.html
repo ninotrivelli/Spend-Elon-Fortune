@@ -296,7 +296,7 @@
 
     <div class="element">
       <img src="img/jet.jpg" alt="jet" />
-      <p>Gulfstream G450</p>
+      <p>Jet Gulfstream G450</p>
       <span id="price">USD 17,000,000</span>
       <div class="buyAndSellContainer" data-price="17000000">
         <button class="btn-sell" id="sell" disabled>Sell</button>
@@ -328,10 +328,10 @@
     </div>
 
     <div class="element">
-      <img src="img/normalapto.jpg" alt="movie" />
+      <img src="img/normalapto.jpg" alt="regular apartment" />
       <p>Regular Apartment (2 bd, 2 ba)</p>
       <span id="price">USD 250,000</span>
-      <div class="buyAndSellContainer" data-price="200000">
+      <div class="buyAndSellContainer" data-price="250000">
         <button class="btn-sell" id="sell" disabled>Sell</button>
         <span id="amount">0</span>
         <button class="btn-buy" id="buy">Buy</button>
@@ -339,7 +339,7 @@
     </div>
 
     <div class="element">
-      <img src="img/parisApto.jpg" alt="movie" />
+      <img src="img/parisApto.jpg" alt="paris apartment" />
       <p>Paris Luxury Apartment(3 bd, 4 ba)</p>
       <span id="price">USD 3,000,000</span>
       <div class="buyAndSellContainer" data-price="3000000">
@@ -350,7 +350,7 @@
     </div>
 
     <div class="element">
-      <img src="img/mansion.webp" alt="movie" />
+      <img src="img/mansion.webp" alt="mansion" />
       <p>L.A Home (5 bd, 6 ba)</p>
       <span id="price">USD 6,000,000</span>
       <div class="buyAndSellContainer" data-price="6000000">
@@ -361,10 +361,54 @@
     </div>
 
     <div class="element">
-      <img src="img/masion2.webp" alt="movie" />
+      <img src="img/masion2.webp" alt="mansion2" />
       <p>L.A Mega Mansion (8 bd, 20 ba)</p>
       <span id="price">USD 52,000,000</span>
       <div class="buyAndSellContainer" data-price="52000000">
+        <button class="btn-sell" id="sell" disabled>Sell</button>
+        <span id="amount">0</span>
+        <button class="btn-buy" id="buy">Buy</button>
+      </div>
+    </div>
+
+    <div class="element">
+      <img src="img/building.jpg" alt="builing" />
+      <p>Entire Modern Buidling (35 apartments + 10 Offices)</p>
+      <span id="price">USD 12,000,000</span>
+      <div class="buyAndSellContainer" data-price="12000000">
+        <button class="btn-sell" id="sell" disabled>Sell</button>
+        <span id="amount">0</span>
+        <button class="btn-buy" id="buy">Buy</button>
+      </div>
+    </div>
+
+    <div class="element">
+      <img src="img/sailboat.jpg" alt="sailboat" />
+      <p>Sailboat</p>
+      <span id="price">USD 130,000</span>
+      <div class="buyAndSellContainer" data-price="130000">
+        <button class="btn-sell" id="sell" disabled>Sell</button>
+        <span id="amount">0</span>
+        <button class="btn-buy" id="buy">Buy</button>
+      </div>
+    </div>
+
+    <div class="element">
+      <img src="img/yatch.jpg" alt="yatch" />
+      <p>Mega Yatch</p>
+      <span id="price">USD 300,000,000</span>
+      <div class="buyAndSellContainer" data-price="300000000">
+        <button class="btn-sell" id="sell" disabled>Sell</button>
+        <span id="amount">0</span>
+        <button class="btn-buy" id="buy">Buy</button>
+      </div>
+    </div>
+
+    <div class="element">
+      <img src="img/cash.jpeg" alt="movie" />
+      <p>Give a 6M people country 10.000 USD for EACH person</p>
+      <span id="price">USD 60,000,000,000</span>
+      <div class="buyAndSellContainer" data-price="60000000000">
         <button class="btn-sell" id="sell" disabled>Sell</button>
         <span id="amount">0</span>
         <button class="btn-buy" id="buy">Buy</button>
@@ -377,6 +421,11 @@
   <div class="receipt" id="receipt-container">
     <h1>Receipt</h1>
   </div>
+
+  <a class="btn-print" onclick="printSection('receipt-container')"
+    ><button>Print Recipt</button></a
+  >
+
   <body>
     <script src="code.js"></script>
   </body>

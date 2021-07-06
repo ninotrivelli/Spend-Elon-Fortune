@@ -171,3 +171,19 @@ button {
   text-decoration: underline;
   padding: 1rem;
 }
+
+.btn-print {
+  display: block;
+
+  text-align: center;
+}
+
+.btn-print button {
+  background-color: rgba(83, 90, 95, 1);
+  color: white;
+}
+
+.btn-print button:hover {
+  background-color: rgb(125, 135, 143);
+  color: white;
+}
