@@ -8,516 +8,515 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="img/iconmonstr-banknote-15.svg" />
   </head>
-
-  <header>
-    <img src="img/elon-musk-june-09-2015-260nw-398236087.jpg" alt="" />
-    <div class="title-container">
-      <h1>Spend Elon's Musk Fortune!</h1>
-      <p>
-        If Elon cashed out all of his stocks today he would have <br />
-        approximately <strong>$164,000,000,000</strong> (US Dollars) in his bank
-        account.
-      </p>
-      <p>¿What would you <strong>spend it</strong> on?</p>
-      <small>Have your receipt at the end!</small>
-    </div>
-  </header>
-  <div class="total">
-    <p class="totalMoney" id="totalMoney">Remaning: $164,000,000,000</p>
-    <p class="percentageLeft" id="percentageLeft">
-      You haven't spent a single dollar, start buying!
-    </p>
-  </div>
-
-  <div class="app-container" id="allElements">
-    <!-- Elements -->
-
-    <div class="element">
-      <img src="img/1366_2000.jpeg" alt="nintendo switch" />
-      <p>Nintendo Switch</p>
-      <span id="price">USD 299</span>
-      <div class="buyAndSellContainer" data-price="299">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/ps5.jpg" alt="ps5" />
-      <p>PS5</p>
-      <span id="price">USD 499</span>
-      <div class="buyAndSellContainer" data-price="499">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/xboxSeriesX.jpg" alt="xbox series x" />
-      <p>Xbox Series X</p>
-      <span id="price">USD 499</span>
-      <div class="buyAndSellContainer" data-price="499">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/iphone12proMax.jpg" alt="iphone 12 pro max" />
-      <p>Iphone 12 Pro Max - 512GB</p>
-      <span id="price">USD 1399</span>
-      <div class="buyAndSellContainer" data-price="1399">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/samsungS21Ultra.jpg" alt="samsung s21 ultra" />
-      <p>Samsung S21 Ultra - 256GB</p>
-      <span id="price">USD 1249</span>
-      <div class="buyAndSellContainer" data-price="1249">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/AWD_5000D_Air_PC_Angled_Closed.jpg" alt="gaming pc" />
-      <p>Ultimate Gaming PC (Ryzen 5950X, RTX 3090, 64GB, 4TB SSD)</p>
-      <span id="price">USD 4950</span>
-      <div class="buyAndSellContainer" data-price="4950">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/spotify.png" alt="spotify logo" />
-      <p>Spotify for 80 years</p>
-      <span id="price">USD 9600</span>
-      <div class="buyAndSellContainer" data-price="9600">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/steam.jpg" alt="steam" />
-      <p>Entire Steam library (2021 - No discounts)</p>
-      <span id="price"> USD 628,000</span>
-      <div class="buyAndSellContainer" data-price="628000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/1063aa965910d4093a4e98bde052885c.png" alt="netflix logo" />
-      <p>Netflix for 80 Years</p>
-      <span id="price">USD 13,500</span>
-      <div class="buyAndSellContainer" data-price="13500">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/nvidiacards.jpg" alt="nvidia cards" />
-      <p>Entire production of Nivida GPUS for 2022</p>
-      <span id="price">USD 700,000,000</span>
-      <div class="buyAndSellContainer" data-price="700000000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/lgTV.jpg" alt="lg tv 88 inch" />
-      <p>LG 88' OLED 8K ThinQ®</p>
-      <span id="price">USD 19,999</span>
-      <div class="buyAndSellContainer" data-price="19999">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/fiat500.jpg" alt="fiat 500" />
-      <p>Fiat 500</p>
-      <span id="price">USD 19,000</span>
-      <div class="buyAndSellContainer" data-price="19000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/camry.jpg" alt="toyota camry" />
-      <p>Toyota Camry</p>
-      <span id="price">USD 29,000</span>
-      <div class="buyAndSellContainer" data-price="29000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/fordf150.jpg" alt="fordf150 raptor" />
-      <p>Ford F150 Raptor 2022</p>
-      <span id="price">USD 65,900</span>
-      <div class="buyAndSellContainer" data-price="65900">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img
-        src="img/model-s-plaid-track-package.jpeg"
-        alt="tesla model S plaid"
-      />
-      <p>Tesla Model S Plaid</p>
-      <span id="price">USD 132,000</span>
-      <div class="buyAndSellContainer" data-price="132000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/Ferrari_F8_Tributo_1.jpg" alt="ferrari F8" />
-      <p>Ferrari F8</p>
-      <span id="price">USD 276,000</span>
-      <div class="buyAndSellContainer" data-price="276000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img
-        src="img/Lamborghini_Aventador_SVJ_03.jpg"
-        alt="Lamborghini_Aventador SVJ"
-      />
-      <p>Lamborghini Aventador SVJ</p>
-      <span id="price">USD 512,000</span>
-      <div class="buyAndSellContainer" data-price="512000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img
-        src="img/bugatti-la-voiture-noire-definitive.jpg"
-        alt="bugatti-la-voiture-noire-definitive"
-      />
-      <p>Bugatti La Voiture Noire</p>
-      <span id="price">USD 11,000,000</span>
-      <div class="buyAndSellContainer" data-price="11000000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/acre.jpg" alt="1000 acres of land" />
-      <p>1000 Acres of land</p>
-      <span id="price">USD 4,100,000</span>
-      <div class="buyAndSellContainer" data-price="4100000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/island.jpg" alt="island" />
-      <p>Private Island, Central America (medium size)</p>
-      <span id="price">USD 4,950,000</span>
-      <div class="buyAndSellContainer" data-price="4950000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/eatingOutfood.jpg" alt="eatingOut" />
-      <p>Eating out for 80 years (4 meals/day)</p>
-      <span id="price">USD 2,400,000</span>
-      <div class="buyAndSellContainer" data-price="2400000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/diamondring.jpg" alt="diamong ring" />
-      <p>Diamond Ring (Tiffany - 1 carat)</p>
-      <span id="price">USD 17,000</span>
-      <div class="buyAndSellContainer" data-price="17000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/rolex.jpg" alt="rolex" />
-      <p>Rolex</p>
-      <span id="price">USD 12,000</span>
-      <div class="buyAndSellContainer" data-price="12000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/picasso.jpg" alt="picasso paiting" />
-      <p>Les Femmes d’Alger by Picasso</p>
-      <span id="price">USD 179,400,000</span>
-      <div class="buyAndSellContainer" data-price="179400000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/monalisa.jpg" alt="Monalisa by Leonardo da Vinci" />
-      <p>Monalisa by Leonardo da Vinci (estimate)</p>
-      <span id="price">USD 869,000,000</span>
-      <div class="buyAndSellContainer" data-price="869000000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/helicopter.jpg" alt="helicopter" />
-      <p>Helicopter Bell 206</p>
-      <span id="price">USD 750,000</span>
-      <div class="buyAndSellContainer" data-price="750000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/plasticsurgery.jpg" alt="plastic surgery" />
-      <p>10 plastic surgeries</p>
-      <span id="price">USD 120,000</span>
-      <div class="buyAndSellContainer" data-price="120000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/world.jpg" alt="every country planet" />
-      <p>One week in EVERY country of the planet</p>
-      <span id="price">USD 795,000</span>
-      <div class="buyAndSellContainer" data-price="795000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/ce-diploma.jpg" alt="diploma" />
-      <p>Collage Education (USA)</p>
-      <span id="price">USD 170,000</span>
-      <div class="buyAndSellContainer" data-price="170000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/nfl_LOGO.png" alt="nfl logo" />
-      <p>NFL Team (Average)</p>
-      <span id="price">USD 3,000,000,000</span>
-      <div class="buyAndSellContainer" data-price="3000000000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/nba.png" alt="nba logo" />
-      <p>NBA Team (Average)</p>
-      <span id="price">USD 2,400,000,000</span>
-      <div class="buyAndSellContainer" data-price="2400000000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/f1team.jpg" alt="f1 logo" />
-      <p>F1 Team (Average)</p>
-      <span id="price">USD 700,000,000</span>
-      <div class="buyAndSellContainer" data-price="700000000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/jet.jpg" alt="jet" />
-      <p>Jet Gulfstream G450</p>
-      <span id="price">USD 17,000,000</span>
-      <div class="buyAndSellContainer" data-price="17000000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/tankk.jpg" alt="tank" />
-      <p>M1 Abrams</p>
-      <span id="price">USD 8,000,000</span>
-      <div class="buyAndSellContainer" data-price="8000000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/movie.jpg" alt="movie" />
-      <p>Produce a Hollywood Movie</p>
-      <span id="price">USD 90,000,000</span>
-      <div class="buyAndSellContainer" data-price="90000000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/normalapto.jpg" alt="regular apartment" />
-      <p>Regular Apartment (2 bd, 2 ba)</p>
-      <span id="price">USD 250,000</span>
-      <div class="buyAndSellContainer" data-price="250000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/parisApto.jpg" alt="paris apartment" />
-      <p>Paris Luxury Apartment(3 bd, 4 ba)</p>
-      <span id="price">USD 3,000,000</span>
-      <div class="buyAndSellContainer" data-price="3000000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/mansion.webp" alt="mansion" />
-      <p>L.A Home (5 bd, 6 ba)</p>
-      <span id="price">USD 6,000,000</span>
-      <div class="buyAndSellContainer" data-price="6000000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/masion2.webp" alt="mansion2" />
-      <p>L.A Mega Mansion (8 bd, 20 ba)</p>
-      <span id="price">USD 52,000,000</span>
-      <div class="buyAndSellContainer" data-price="52000000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/building.jpg" alt="builing" />
-      <p>Modern Buidling (35 condos + 10 Offices)</p>
-      <span id="price">USD 12,000,000</span>
-      <div class="buyAndSellContainer" data-price="12000000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/sailboat.jpg" alt="sailboat" />
-      <p>Sailboat</p>
-      <span id="price">USD 130,000</span>
-      <div class="buyAndSellContainer" data-price="130000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <div class="element">
-      <img src="img/yatch.jpg" alt="yatch" />
-      <p>Mega Yatch</p>
-      <span id="price">USD 300,000,000</span>
-      <div class="buyAndSellContainer" data-price="300000000">
-        <button class="btn-sell" id="sell" disabled>Sell</button>
-        <span id="amount">0</span>
-        <button class="btn-buy" id="buy">Buy</button>
-      </div>
-    </div>
-
-    <!-- END -->
-  </div>
-
-  <div class="receipt" id="receipt-container">
-    <h1>Receipt</h1>
-  </div>
-
-  <a
-    target="_blank"
-    class="btn-print"
-    onclick="printSection('receipt-container')"
-    ><button>Print Recipt</button></a
-  >
-
   <body>
+    <header>
+      <img src="img/elon-musk-june-09-2015-260nw-398236087.jpg" alt="" />
+      <div class="title-container">
+        <h1>Spend Elon's Musk Fortune!</h1>
+        <p>
+          If Elon cashed out all of his stocks today he would have <br />
+          approximately <strong>$164,000,000,000</strong> (US Dollars) in his
+          bank account.
+        </p>
+        <p>¿What would you <strong>spend it</strong> on?</p>
+        <small>Have your receipt at the end!</small>
+      </div>
+    </header>
+    <div class="total">
+      <p class="totalMoney" id="totalMoney">Remaning: $164,000,000,000</p>
+      <p class="percentageLeft" id="percentageLeft">
+        You haven't spent a single dollar, start buying!
+      </p>
+    </div>
+
+    <div class="app-container" id="allElements">
+      <!-- Elements -->
+
+      <div class="element">
+        <img src="img/1366_2000.jpeg" alt="nintendo switch" />
+        <p>Nintendo Switch</p>
+        <span id="price">USD 299</span>
+        <div class="buyAndSellContainer" data-price="299">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/ps5.jpg" alt="ps5" />
+        <p>PS5</p>
+        <span id="price">USD 499</span>
+        <div class="buyAndSellContainer" data-price="499">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/xboxSeriesX.jpg" alt="xbox series x" />
+        <p>Xbox Series X</p>
+        <span id="price">USD 499</span>
+        <div class="buyAndSellContainer" data-price="499">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/iphone12proMax.jpg" alt="iphone 12 pro max" />
+        <p>Iphone 12 Pro Max - 512GB</p>
+        <span id="price">USD 1399</span>
+        <div class="buyAndSellContainer" data-price="1399">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/samsungS21Ultra.jpg" alt="samsung s21 ultra" />
+        <p>Samsung S21 Ultra - 256GB</p>
+        <span id="price">USD 1249</span>
+        <div class="buyAndSellContainer" data-price="1249">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/AWD_5000D_Air_PC_Angled_Closed.jpg" alt="gaming pc" />
+        <p>Ultimate Gaming PC (Ryzen 5950X, RTX 3090, 64GB, 4TB SSD)</p>
+        <span id="price">USD 4950</span>
+        <div class="buyAndSellContainer" data-price="4950">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/spotify.png" alt="spotify logo" />
+        <p>Spotify for 80 years</p>
+        <span id="price">USD 9600</span>
+        <div class="buyAndSellContainer" data-price="9600">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/steam.jpg" alt="steam" />
+        <p>Entire Steam library (2021 - No discounts)</p>
+        <span id="price"> USD 628,000</span>
+        <div class="buyAndSellContainer" data-price="628000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img
+          src="img/1063aa965910d4093a4e98bde052885c.png"
+          alt="netflix logo"
+        />
+        <p>Netflix for 80 Years</p>
+        <span id="price">USD 13,500</span>
+        <div class="buyAndSellContainer" data-price="13500">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/nvidiacards.jpg" alt="nvidia cards" />
+        <p>Entire production of Nivida GPUS for 2022</p>
+        <span id="price">USD 700,000,000</span>
+        <div class="buyAndSellContainer" data-price="700000000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/lgTV.jpg" alt="lg tv 88 inch" />
+        <p>LG 88' OLED 8K ThinQ®</p>
+        <span id="price">USD 19,999</span>
+        <div class="buyAndSellContainer" data-price="19999">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/fiat500.jpg" alt="fiat 500" />
+        <p>Fiat 500</p>
+        <span id="price">USD 19,000</span>
+        <div class="buyAndSellContainer" data-price="19000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/camry.jpg" alt="toyota camry" />
+        <p>Toyota Camry</p>
+        <span id="price">USD 29,000</span>
+        <div class="buyAndSellContainer" data-price="29000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/fordf150.jpg" alt="fordf150 raptor" />
+        <p>Ford F150 Raptor 2022</p>
+        <span id="price">USD 65,900</span>
+        <div class="buyAndSellContainer" data-price="65900">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img
+          src="img/model-s-plaid-track-package.jpeg"
+          alt="tesla model S plaid"
+        />
+        <p>Tesla Model S Plaid</p>
+        <span id="price">USD 132,000</span>
+        <div class="buyAndSellContainer" data-price="132000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/Ferrari_F8_Tributo_1.jpg" alt="ferrari F8" />
+        <p>Ferrari F8</p>
+        <span id="price">USD 276,000</span>
+        <div class="buyAndSellContainer" data-price="276000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img
+          src="img/Lamborghini_Aventador_SVJ_03.jpg"
+          alt="Lamborghini_Aventador SVJ"
+        />
+        <p>Lamborghini Aventador SVJ</p>
+        <span id="price">USD 512,000</span>
+        <div class="buyAndSellContainer" data-price="512000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img
+          src="img/bugatti-la-voiture-noire-definitive.jpg"
+          alt="bugatti-la-voiture-noire-definitive"
+        />
+        <p>Bugatti La Voiture Noire</p>
+        <span id="price">USD 11,000,000</span>
+        <div class="buyAndSellContainer" data-price="11000000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/acre.jpg" alt="1000 acres of land" />
+        <p>1000 Acres of land</p>
+        <span id="price">USD 4,100,000</span>
+        <div class="buyAndSellContainer" data-price="4100000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/island.jpg" alt="island" />
+        <p>Private Island, Central America (medium size)</p>
+        <span id="price">USD 4,950,000</span>
+        <div class="buyAndSellContainer" data-price="4950000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/eatingOutfood.jpg" alt="eatingOut" />
+        <p>Eating out for 80 years (4 meals/day)</p>
+        <span id="price">USD 2,400,000</span>
+        <div class="buyAndSellContainer" data-price="2400000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/diamondring.jpg" alt="diamong ring" />
+        <p>Diamond Ring (Tiffany - 1 carat)</p>
+        <span id="price">USD 17,000</span>
+        <div class="buyAndSellContainer" data-price="17000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/rolex.jpg" alt="rolex" />
+        <p>Rolex</p>
+        <span id="price">USD 12,000</span>
+        <div class="buyAndSellContainer" data-price="12000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/picasso.jpg" alt="picasso paiting" />
+        <p>Les Femmes d’Alger by Picasso</p>
+        <span id="price">USD 179,400,000</span>
+        <div class="buyAndSellContainer" data-price="179400000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/monalisa.jpg" alt="Monalisa by Leonardo da Vinci" />
+        <p>Monalisa by Leonardo da Vinci (estimate)</p>
+        <span id="price">USD 869,000,000</span>
+        <div class="buyAndSellContainer" data-price="869000000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/helicopter.jpg" alt="helicopter" />
+        <p>Helicopter Bell 206</p>
+        <span id="price">USD 750,000</span>
+        <div class="buyAndSellContainer" data-price="750000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/plasticsurgery.jpg" alt="plastic surgery" />
+        <p>10 plastic surgeries</p>
+        <span id="price">USD 120,000</span>
+        <div class="buyAndSellContainer" data-price="120000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/world.jpg" alt="every country planet" />
+        <p>One week in EVERY country of the planet</p>
+        <span id="price">USD 795,000</span>
+        <div class="buyAndSellContainer" data-price="795000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/ce-diploma.jpg" alt="diploma" />
+        <p>Collage Education (USA)</p>
+        <span id="price">USD 170,000</span>
+        <div class="buyAndSellContainer" data-price="170000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/nfl_LOGO.png" alt="nfl logo" />
+        <p>NFL Team (Average)</p>
+        <span id="price">USD 3,000,000,000</span>
+        <div class="buyAndSellContainer" data-price="3000000000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/nba.png" alt="nba logo" />
+        <p>NBA Team (Average)</p>
+        <span id="price">USD 2,400,000,000</span>
+        <div class="buyAndSellContainer" data-price="2400000000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/f1team.jpg" alt="f1 logo" />
+        <p>F1 Team (Average)</p>
+        <span id="price">USD 700,000,000</span>
+        <div class="buyAndSellContainer" data-price="700000000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/jet.jpg" alt="jet" />
+        <p>Jet Gulfstream G450</p>
+        <span id="price">USD 17,000,000</span>
+        <div class="buyAndSellContainer" data-price="17000000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/tankk.jpg" alt="tank" />
+        <p>M1 Abrams</p>
+        <span id="price">USD 8,000,000</span>
+        <div class="buyAndSellContainer" data-price="8000000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/movie.jpg" alt="movie" />
+        <p>Produce a Hollywood Movie</p>
+        <span id="price">USD 90,000,000</span>
+        <div class="buyAndSellContainer" data-price="90000000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/normalapto.jpg" alt="regular apartment" />
+        <p>Regular Apartment (2 bd, 2 ba)</p>
+        <span id="price">USD 250,000</span>
+        <div class="buyAndSellContainer" data-price="250000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/parisApto.jpg" alt="paris apartment" />
+        <p>Paris Luxury Apartment(3 bd, 4 ba)</p>
+        <span id="price">USD 3,000,000</span>
+        <div class="buyAndSellContainer" data-price="3000000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/mansion.webp" alt="mansion" />
+        <p>L.A Home (5 bd, 6 ba)</p>
+        <span id="price">USD 6,000,000</span>
+        <div class="buyAndSellContainer" data-price="6000000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/masion2.webp" alt="mansion2" />
+        <p>L.A Mega Mansion (8 bd, 20 ba)</p>
+        <span id="price">USD 52,000,000</span>
+        <div class="buyAndSellContainer" data-price="52000000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/building.jpg" alt="builing" />
+        <p>Modern Buidling (35 condos + 10 Offices)</p>
+        <span id="price">USD 12,000,000</span>
+        <div class="buyAndSellContainer" data-price="12000000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/sailboat.jpg" alt="sailboat" />
+        <p>Sailboat</p>
+        <span id="price">USD 130,000</span>
+        <div class="buyAndSellContainer" data-price="130000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="img/yatch.jpg" alt="yatch" />
+        <p>Mega Yatch</p>
+        <span id="price">USD 300,000,000</span>
+        <div class="buyAndSellContainer" data-price="300000000">
+          <button class="btn-sell" id="sell" disabled>Sell</button>
+          <span id="amount">0</span>
+          <button class="btn-buy" id="buy">Buy</button>
+        </div>
+      </div>
+
+      <!-- END -->
+    </div>
+
+    <div class="receipt" id="receipt-container">
+      <h1>Receipt</h1>
+    </div>
+
+    <a class="btn-print" onclick="printSection('receipt-container')"
+      ><button>Print Recipt</button></a
+    >
+
     <script src="code.js"></script>
   </body>
 </html>

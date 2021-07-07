@@ -191,9 +191,8 @@ function updateReceipt() {
 
 // Function to print
 function printSection(el) {
-  let getFullContent = document.body.innerHTML;
   let printsection = document.getElementById(el).innerHTML;
   document.body.innerHTML = printsection;
+
   window.print();
-  // document.body.innerHTML = getFullContent;
 }
