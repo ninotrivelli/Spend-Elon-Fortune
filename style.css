@@ -192,7 +192,7 @@ button {
   color: white;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 560px) {
   .total {
     display: flex;
     flex-direction: column;
@@ -212,7 +212,8 @@ button {
     margin: 0;
   }
 
-  .receipt-container {
-    font-size: 0.9rem;
+  .receipt p {
+    font-size: 1.7rem;
+    padding: 0.5rem;
   }
 }
