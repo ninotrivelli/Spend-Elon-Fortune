@@ -111,7 +111,7 @@ function sellItem(element) {
 }
 
 function updateTotalAndPercentage() {
-  totalMoneyElement.innerHTML = `<p class="totalMoney">Remaning: ${formatMoney(
+  totalMoneyElement.innerHTML = `<p class="totalMoney">Remaining: ${formatMoney(
     elonFortune
   )} USD</p>`;
   percentageElement.innerHTML = `<p class ="percentageLeft">You only spent ${(
