@@ -193,6 +193,21 @@ button {
   color: white;
 }
 
+.coffe-link {
+  text-align: center;
+  display: block;
+  font-size: 1.7rem;
+  margin: 3rem;
+}
+
+.coffe-link a {
+  text-decoration: none;
+  color: rgb(16, 209, 145);
+  text-decoration: underline;
+}
+
+/* Media query */
+
 @media screen and (max-width: 560px) {
   .total {
     display: flex;
