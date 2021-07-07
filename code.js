@@ -54,7 +54,14 @@ function buyItem(element) {
     );
 
     updateReceipt();
+  } else {
+    cantAffordAlert();
   }
+}
+
+function cantAffordAlert() {
+  totalMoneyElement.innerHTML = `<p class="totalMoney">Can't afford that!</p>`;
+  percentageElement.innerHTML = `<p class ="percentageLeft">Sell something!</p>`;
 }
 
 function createReciptItem(name, amount, total) {
