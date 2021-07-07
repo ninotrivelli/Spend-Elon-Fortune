@@ -25,7 +25,7 @@ appContainer.addEventListener('click', (e) => {
 function buyItem(element) {
   // change default data to new data
 
-  if (elonFortune - Number(element.dataset.price) > 0) {
+  if (elonFortune - Number(element.dataset.price) >= 0) {
     elonFortune -= Number(element.dataset.price);
     totalPercentage = (elonFortune * 100) / 164000000000;
 
