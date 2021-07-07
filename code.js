@@ -181,7 +181,7 @@ function updateReceipt() {
     let itemX = receiptItemsArr[i];
 
     if (itemX.amount !== 0) {
-      receipt += `<p>${itemX.name} x <strong> ${itemX.amount}</strong> ......................${itemX.total}</p>`;
+      receipt += `<p>${itemX.name} x <strong> ${itemX.amount}</strong> ......................$ ${itemX.total}</p>`;
     }
   }
 
