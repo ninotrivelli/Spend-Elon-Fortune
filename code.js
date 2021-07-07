@@ -101,10 +101,12 @@ function sellItem(element) {
 }
 
 function updateTotalAndPercentage() {
-  totalMoneyElement.innerHTML = `Remaning: ${formatMoney(elonFortune)} USD`;
-  percentageElement.innerHTML = `You only spent ${(
+  totalMoneyElement.innerHTML = `<p class="totalMoney">Remaning: ${formatMoney(
+    elonFortune
+  )} USD</p>`;
+  percentageElement.innerHTML = `<p class ="percentageLeft">You only spent ${(
     100 - totalPercentage
-  ).toFixed(6)} % of the total!`;
+  ).toFixed(6)} % of the total!</p>`;
 }
 
 // Format Money Function
