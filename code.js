@@ -24,34 +24,37 @@ appContainer.addEventListener('click', (e) => {
 // Buy item
 function buyItem(element) {
   // change default data to new data
-  elonFortune -= Number(element.dataset.price);
-  totalPercentage = (elonFortune * 100) / 164000000000;
 
-  // Item name
-  let itemName = element.parentElement.querySelector('p').textContent;
+  if (elonFortune - Number(element.dataset.price) > 0) {
+    elonFortune -= Number(element.dataset.price);
+    totalPercentage = (elonFortune * 100) / 164000000000;
 
-  // get span to increment by one
-  let amountOfItems = element.querySelector('span');
-  amountOfItems.textContent = `${Number(amountOfItems.textContent) + 1}`;
+    // Item name
+    let itemName = element.parentElement.querySelector('p').textContent;
 
-  // get button to enable it when item is more than 0
-  let button = element.querySelector('#sell');
-  if (Number(amountOfItems.textContent) > 0) {
-    button.disabled = false;
+    // get span to increment by one
+    let amountOfItems = element.querySelector('span');
+    amountOfItems.textContent = `${Number(amountOfItems.textContent) + 1}`;
+
+    // get button to enable it when item is more than 0
+    let button = element.querySelector('#sell');
+    if (Number(amountOfItems.textContent) > 0) {
+      button.disabled = false;
+    }
+
+    updateTotalAndPercentage();
+
+    // Create (if its new) or update recipt item(if it already exists)
+    createReciptItem(
+      itemName,
+      Number(amountOfItems.textContent),
+      formatMoney(
+        Number(element.dataset.price) * Number(amountOfItems.textContent)
+      )
+    );
+
+    updateReceipt();
   }
-
-  updateTotalAndPercentage();
-
-  // Create (if its new) or update recipt item(if it already exists)
-  createReciptItem(
-    itemName,
-    Number(amountOfItems.textContent),
-    formatMoney(
-      Number(element.dataset.price) * Number(amountOfItems.textContent)
-    )
-  );
-
-  updateReceipt();
 }
 
 function createReciptItem(name, amount, total) {
@@ -176,7 +179,7 @@ function updateReceipt() {
   }
 
   document.querySelector('#receipt-container').innerHTML =
-    title + receipt + `<p class="totalRecipt">Total is: ${total}</p>`;
+    title + receipt + `<p class="totalRecipt">Total is: $ ${total}</p>`;
 }
 
 // Function to print
