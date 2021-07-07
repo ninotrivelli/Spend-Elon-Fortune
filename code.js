@@ -195,5 +195,5 @@ function printSection(el) {
   let printsection = document.getElementById(el).innerHTML;
   document.body.innerHTML = printsection;
   window.print();
-  document.body.innerHTML = getFullContent;
+  // document.body.innerHTML = getFullContent;
 }
