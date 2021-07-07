@@ -211,4 +211,8 @@ button {
     font-size: 1.9rem;
     margin: 0;
   }
+
+  .receipt-container {
+    font-size: 0.9rem;
+  }
 }
