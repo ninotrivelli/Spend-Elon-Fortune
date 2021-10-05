@@ -10,13 +10,15 @@ const appContainer = document.querySelector('.app-container');
 let elonFortune = 164000000000;
 let totalPercentage = 100;
 
+let elements = [];
+
 // Events
 appContainer.addEventListener('click', (e) => {
   let element = e.target.parentElement;
 
-  if (e.target.id === 'buy') {
+  if (e.target.classList.contains('btn-buy')) {
     buyItem(element);
-  } else if (e.target.id === 'sell') {
+  } else if (e.target.classList.contains('btn-sell')) {
     sellItem(element);
   }
 });
@@ -30,10 +32,10 @@ function buyItem(element) {
     totalPercentage = (elonFortune * 100) / 164000000000;
 
     // Item name
-    let itemName = element.parentElement.querySelector('p').textContent;
+    let itemName = element.parentElement.querySelector('#name').textContent;
 
     // get span to increment by one
-    let amountOfItems = element.querySelector('span');
+    let amountOfItems = element.querySelector('#amount');
     amountOfItems.textContent = `${Number(amountOfItems.textContent) + 1}`;
 
     // get button to enable it when item is more than 0
@@ -196,3 +198,263 @@ function printSection(el) {
 
   window.print();
 }
+
+// Element class - preload data - generate html elements
+
+class Element {
+  static nro = 1;
+  constructor(name, price, image) {
+    this.id = Element.nro++;
+    this.name = name;
+    this.price = price;
+    this.amount = 0;
+    this.image = image;
+  }
+}
+
+function createAndSaveElement(elementName, price, image) {
+  if (elementName !== '' && price > 0 && image !== '') {
+    let newElement = new Element(elementName, price, image);
+    elements.push(newElement);
+  }
+}
+
+preLoad();
+
+function preLoad() {
+  createAndSaveElement(
+    'Nintendo Switch',
+    299,
+    'https://i.imgur.com/0FO7MMz.jpg'
+  );
+  createAndSaveElement('PS5', 499, 'https://i.imgur.com/0KSqKXn.jpg');
+  createAndSaveElement('Xbox Series X', 499, 'https://i.imgur.com/NZ6ySwj.jpg');
+  createAndSaveElement(
+    'Iphone 13 Pro Max - 1TB',
+    1499,
+    'https://i.imgur.com/OrjGwuh.jpg'
+  );
+  createAndSaveElement(
+    'Samsung S21 Ultra - 256GB',
+    1249,
+    'https://i.imgur.com/mBFaPDN.jpg'
+  );
+  createAndSaveElement(
+    'Ultimate Gaming PC (Ryzen 5950X, RTX 3090, 64GB, 4TB SSD)',
+    4950,
+    'https://i.imgur.com/LVouJCx.jpg'
+  );
+  createAndSaveElement(
+    'Razer Blade 14 Top spec (2021)',
+    2799,
+    'https://i.imgur.com/GymbKY5.jpg'
+  );
+  createAndSaveElement(
+    'Mac Pro Top spec (2021) (28 Cores, 8TB SSD, 1TB RAM, 32GB Video)',
+    53799,
+    'https://i.imgur.com/3fGEKLh.jpg'
+  );
+  createAndSaveElement(
+    'Spotify for 80 years',
+    9600,
+    'https://i.imgur.com/iMXaSUF.jpg'
+  );
+  createAndSaveElement(
+    'Entire Steam library (2021 - No discounts)',
+    628000,
+    'https://i.imgur.com/W5EmtUf.jpg'
+  );
+  createAndSaveElement(
+    'Netflix for 80 Years',
+    13500,
+    'https://i.imgur.com/gKxWs5h.jpg'
+  );
+  createAndSaveElement(
+    'Entire production of Nvidia GPUs for 2022',
+    700000000,
+    'https://i.imgur.com/5IGLmiB.jpg'
+  );
+  createAndSaveElement(
+    "LG 88' OLED 8K ThinQ®",
+    19990,
+    'https://i.imgur.com/0QQlGOv.jpg'
+  );
+  createAndSaveElement('Fiat 500', 19000, 'https://i.imgur.com/hvfF6Gc.jpg');
+  createAndSaveElement(
+    'Toyota Camry',
+    29000,
+    'https://i.imgur.com/f2S0wmc.jpg'
+  );
+  createAndSaveElement(
+    'Ford F150 Raptor 2022',
+    65900,
+    'https://i.imgur.com/YeJdI91.jpg'
+  );
+  createAndSaveElement(
+    'Tesla Model S Plaid',
+    132000,
+    'https://i.imgur.com/qGNbe3T.jpg'
+  );
+
+  createAndSaveElement(
+    'Cybertruck (Tri Motor)',
+    70000,
+    'https://i.imgur.com/VcilGS4.jpg'
+  );
+  createAndSaveElement('Ferrari F8', 276000, 'https://i.imgur.com/8LNZBZi.jpg');
+  createAndSaveElement(
+    'Lamborghini Aventador SVJ',
+    512000,
+    'https://i.imgur.com/2zzI1XB.jpg'
+  );
+  createAndSaveElement(
+    'Bugatti La Voiture Noire',
+    11000000,
+    'https://i.imgur.com/4TTHYJQ.jpg'
+  );
+  createAndSaveElement(
+    '1000 Acres of land',
+    4100000,
+    'https://i.imgur.com/uhKbVhH.jpg'
+  );
+  createAndSaveElement(
+    'Private Island, Central America (medium size)',
+    4950000,
+    'https://i.imgur.com/1am1OfX.jpg'
+  );
+  createAndSaveElement(
+    'Eating out for 80 years (4 meals/day)',
+    3100000,
+    'https://i.imgur.com/sm3cSP5.jpg'
+  );
+
+  createAndSaveElement(
+    'Diamond Ring (Tiffany - 1 carat)',
+    17000,
+    'https://i.imgur.com/3AkEw9K.jpg'
+  );
+
+  createAndSaveElement('Rolex', 12000, 'https://i.imgur.com/YzLqM8c.jpg');
+  createAndSaveElement(
+    'Les Femmes d’Alger by Picasso',
+    179400000,
+    'https://i.imgur.com/2XznMU7.jpg'
+  );
+
+  createAndSaveElement(
+    'Monalisa by Leonardo da Vinci (estimate)',
+    869000000,
+    'https://i.imgur.com/B5WMXSX.jpg'
+  );
+
+  createAndSaveElement(
+    'Helicopter Bell 206',
+    750000,
+    'https://i.imgur.com/3oOLIDc.jpg'
+  );
+
+  createAndSaveElement(
+    '10 plastic surgeries',
+    130000,
+    'https://i.imgur.com/We5W9mt.jpg'
+  );
+
+  createAndSaveElement(
+    'One week in EVERY country of the planet',
+    1250000,
+    'https://i.imgur.com/CFjtIjN.jpg'
+  );
+
+  createAndSaveElement(
+    'College Education (USA)',
+    170000,
+    'https://i.imgur.com/nX6YLXf.jpg'
+  );
+
+  createAndSaveElement(
+    'NFL Team (Average)',
+    3000000000,
+    'https://i.imgur.com/bjHflAC.jpg'
+  );
+
+  createAndSaveElement(
+    'NBA Team (Average)',
+    2400000000,
+    'https://i.imgur.com/jNK0U47.jpg'
+  );
+
+  createAndSaveElement(
+    'F1 Team (Average)',
+    700000000,
+    'https://i.imgur.com/RLozuOz.jpg'
+  );
+
+  createAndSaveElement(
+    'Jet Gulfstream G450',
+    17000000,
+    'https://i.imgur.com/TZP2OgW.jpg'
+  );
+
+  createAndSaveElement('M1 Abrams', 8000000, 'https://i.imgur.com/TZP2OgW.jpg');
+
+  createAndSaveElement(
+    'Produce a Hollywood Movie',
+    90000000,
+    'https://i.imgur.com/JnQxbcn.jpg'
+  );
+
+  createAndSaveElement(
+    'Regular Apartment (2 bd, 2 ba)',
+    280000,
+    'https://i.imgur.com/6O3q6qR.jpg'
+  );
+
+  createAndSaveElement(
+    'Paris Luxury Apartment(3 bd, 4 ba)',
+    3000000,
+    'https://i.imgur.com/XpJY8RR.jpg'
+  );
+
+  createAndSaveElement(
+    'L.A Home (5bd, 6ba)',
+    6000000,
+    'https://i.imgur.com/LGEsG2k.png'
+  );
+
+  createAndSaveElement(
+    'L.A Mega Mansion (8 bd, 20 ba)',
+    52000000,
+    'https://i.imgur.com/lH271mS.png'
+  );
+
+  createAndSaveElement(
+    'Modern Building (35 condos + 10 Offices)',
+    12000000,
+    'https://i.imgur.com/gqBAmHe.jpg'
+  );
+
+  createAndSaveElement('Sailboat', 130000, 'https://i.imgur.com/iLZmBPD.jpg');
+
+  createAndSaveElement(
+    'Mega Yatch',
+    300000000,
+    'https://i.imgur.com/TGQFkeb.jpg'
+  );
+}
+
+elements.forEach((element) => {
+  let newElement = document.createElement('div');
+
+  newElement.classList.add('element');
+
+  newElement.innerHTML = `<img src="${element.image}" alt="${element.name}" />
+  <p id="name">${element.name}</p>
+  <span id="price">USD ${formatMoney(element.price)}</span>
+  <div class="buyAndSellContainer" data-price="${element.price}">
+    <button class="btn-sell" id="sell" disabled>Sell</button>
+    <span id="amount">${element.amount}</span>
+    <button class="btn-buy" id="buy" >Buy</button>
+  </div>`;
+
+  appContainer.appendChild(newElement);
+});
