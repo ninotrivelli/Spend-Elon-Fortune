@@ -418,13 +418,13 @@ function preLoad() {
   createAndSaveElement(
     'L.A Home (5bd, 6ba)',
     6000000,
-    'https://i.imgur.com/LGEsG2k.png'
+    'https://i.imgur.com/jUV3CMC.jpg'
   );
 
   createAndSaveElement(
     'L.A Mega Mansion (8 bd, 20 ba)',
     52000000,
-    'https://i.imgur.com/lH271mS.png'
+    'https://i.imgur.com/2dosPGH.jpg'
   );
 
   createAndSaveElement(
