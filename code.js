@@ -392,7 +392,7 @@ function preLoad() {
   createAndSaveElement(
     'Jet Gulfstream G450',
     17000000,
-    'https://i.imgur.com/TZP2OgW.jpg'
+    'https://i.imgur.com/rfaTKtE.jpg'
   );
 
   createAndSaveElement('M1 Abrams', 8000000, 'https://i.imgur.com/TZP2OgW.jpg');
