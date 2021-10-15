@@ -275,6 +275,11 @@ function preLoad() {
     'https://i.imgur.com/5IGLmiB.jpg'
   );
   createAndSaveElement(
+    'Give 10,000 USD to 5000 people',
+    50000000,
+    'https://i.imgur.com/kym3viy.jpg'
+  );
+  createAndSaveElement(
     "LG 88' OLED 8K ThinQ®",
     19990,
     'https://i.imgur.com/0QQlGOv.jpg'
