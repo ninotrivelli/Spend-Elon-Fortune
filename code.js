@@ -415,8 +415,8 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    'Paris Luxury Apartment(3 bd, 4 ba)',
-    3000000,
+    'Paris Luxury Apartment(3 bd, 3 ba)',
+    3200000,
     'https://i.imgur.com/dC7f2hN.jpg'
   );
 
