@@ -240,7 +240,7 @@ function preLoad() {
     'https://i.imgur.com/mBFaPDN.jpg'
   );
   createAndSaveElement(
-    'Ultimate Gaming PC (Ryzen 5950X, RTX 3090, 64GB, 4TB SSD)',
+    'Pro Gaming PC (Ryzen 5950X, RTX 3090, 64GB, 4TB SSD)',
     4950,
     'https://i.imgur.com/LVouJCx.jpg'
   );
