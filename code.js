@@ -409,15 +409,15 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    'Regular Apartment (2 bd, 2 ba)',
-    280000,
+    'Regular Modern Apartment (3 bd, 2 ba)',
+    320000,
     'https://i.imgur.com/6O3q6qR.jpg'
   );
 
   createAndSaveElement(
     'Paris Luxury Apartment(3 bd, 4 ba)',
     3000000,
-    'https://i.imgur.com/XpJY8RR.jpg'
+    'https://i.imgur.com/dC7f2hN.jpg'
   );
 
   createAndSaveElement(
