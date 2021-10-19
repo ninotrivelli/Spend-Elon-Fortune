@@ -240,6 +240,12 @@ function preLoad() {
     'https://i.imgur.com/mBFaPDN.jpg'
   );
   createAndSaveElement(
+    "New MacBook Pro 14' M1 Pro Top Spec",
+    3299,
+    'https://i.imgur.com/69V42nb.jpg'
+  );
+
+  createAndSaveElement(
     'Pro Gaming PC(AMD 5950X, RTX 3090, 64GB, 4TB SSD)',
     4950,
     'https://i.imgur.com/LVouJCx.jpg'
