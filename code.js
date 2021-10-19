@@ -282,7 +282,7 @@ function preLoad() {
   );
   createAndSaveElement(
     'Private Concert with ANY Super Star',
-    700000,
+    1000000,
     'https://i.imgur.com/NemUFgb.jpg'
   );
   createAndSaveElement(
