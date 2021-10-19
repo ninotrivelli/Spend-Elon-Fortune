@@ -232,7 +232,7 @@ function preLoad() {
   createAndSaveElement(
     'Iphone 13 Pro Max - 1TB',
     1499,
-    'https://i.imgur.com/OrjGwuh.jpg'
+    'https://i.imgur.com/uUyKgKG.jpg'
   );
   createAndSaveElement(
     'Samsung S21 Ultra - 256GB',
