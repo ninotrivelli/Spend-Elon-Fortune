@@ -281,6 +281,11 @@ function preLoad() {
     'https://i.imgur.com/5IGLmiB.jpg'
   );
   createAndSaveElement(
+    'Private Concert with ANY Super Star',
+    700000,
+    'https://i.imgur.com/NemUFgb.jpg'
+  );
+  createAndSaveElement(
     'Give 10,000 USD to 5000 people',
     50000000,
     'https://i.imgur.com/kym3viy.jpg'
