@@ -266,7 +266,7 @@ function preLoad() {
   createAndSaveElement(
     'Open Fast Food Franchise',
     1500000,
-    'https://i.imgur.com/93gHQop.jpg'
+    'https://i.imgur.com/PzvSI1z.jpg'
   );
   createAndSaveElement(
     'Spotify for 80 years',
