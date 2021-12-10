@@ -359,7 +359,7 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    'Macallan Michael Dillon 1926',
+    'Whisky Macallan Michael Dillon 1926',
     1530000,
     'https://i.imgur.com/tta1VSx.png'
   );
