@@ -288,6 +288,13 @@ function preLoad() {
     700000000,
     'https://i.imgur.com/5IGLmiB.jpg'
   );
+
+  createAndSaveElement(
+    'Influence 1 high ranking politician',
+    2000000,
+    'https://i.imgur.com/iELtucq.jpg'
+  );
+
   createAndSaveElement(
     'Private Concert with ANY Super Star',
     1000000,
