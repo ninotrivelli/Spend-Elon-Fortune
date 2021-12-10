@@ -262,6 +262,12 @@ function preLoad() {
     53799,
     'https://i.imgur.com/3fGEKLh.jpg'
   );
+
+  createAndSaveElement(
+    'Open Fast Food Franchise',
+    1500000,
+    'https://i.imgur.com/93gHQop.jpg'
+  );
   createAndSaveElement(
     'Spotify for 80 years',
     9600,
