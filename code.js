@@ -222,6 +222,8 @@ function createAndSaveElement(elementName, price, image) {
 preLoad();
 
 function preLoad() {
+  createAndSaveElement('AirPods Pro', 249, 'https://i.imgur.com/jImRpPw.jpg');
+
   createAndSaveElement(
     'Nintendo Switch',
     299,
