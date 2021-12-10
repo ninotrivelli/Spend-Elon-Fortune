@@ -358,6 +358,12 @@ function preLoad() {
     'https://i.imgur.com/3AkEw9K.jpg'
   );
 
+  createAndSaveElement(
+    'Macallan Michael Dillon 1926',
+    1530000,
+    'https://i.imgur.com/tta1VSx.png'
+  );
+
   createAndSaveElement('Rolex', 12000, 'https://i.imgur.com/YzLqM8c.jpg');
   createAndSaveElement(
     'Les Femmes d’Alger by Picasso',
