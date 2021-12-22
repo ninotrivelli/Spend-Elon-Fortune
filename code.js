@@ -346,7 +346,7 @@ function preLoad() {
   createAndSaveElement(
     '1000 Acres of land',
     4100000,
-    'hhttps://i.imgur.com/QveX76A.jpg'
+    'https://i.imgur.com/fzz17Jh.jpg'
   );
   createAndSaveElement(
     'Private Island, Central America (medium size)',
@@ -371,7 +371,7 @@ function preLoad() {
     'https://i.imgur.com/tta1VSx.png'
   );
 
-  createAndSaveElement('Rolex', 12000, 'https://i.imgur.com/YzLqM8c.jpg');
+  createAndSaveElement('Rolex', 12000, 'https://i.imgur.com/yOoFsVc.jpg');
   createAndSaveElement(
     'Les Femmes d’Alger by Picasso',
     179400000,
