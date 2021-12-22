@@ -253,12 +253,12 @@ function preLoad() {
     'https://i.imgur.com/PXJj7z0.jpg'
   );
   createAndSaveElement(
-    'Razer Blade 14 Top spec (2021)',
+    'Razer Blade 14 Top spec (2022)',
     2799,
     'https://i.imgur.com/XrStrbb.jpg'
   );
   createAndSaveElement(
-    'Mac Pro Top spec (2021) (28 Cores, 8TB SSD, 1TB RAM, 32GB Video)',
+    'Mac Pro Top spec (2022) (28 Cores, 8TB SSD, 1TB RAM, 32GB Video)',
     53799,
     'https://i.imgur.com/Kx4cEmk.jpg'
   );
@@ -274,7 +274,7 @@ function preLoad() {
     'https://i.imgur.com/ldwb3kB.jpg'
   );
   createAndSaveElement(
-    'Entire Steam library (2021 - No discounts)',
+    'Entire Steam library (2022 - No discounts)',
     628000,
     'https://i.imgur.com/qXETLS0.jpg'
   );
