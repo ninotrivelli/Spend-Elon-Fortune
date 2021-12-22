@@ -229,8 +229,8 @@ function preLoad() {
     299,
     'https://i.imgur.com/0FO7MMz.jpg'
   );
-  createAndSaveElement('PS5', 499, 'https://i.imgur.com/0KSqKXn.jpg');
-  createAndSaveElement('Xbox Series X', 499, 'https://i.imgur.com/NZ6ySwj.jpg');
+  createAndSaveElement('PS5', 499, 'https://i.imgur.com/CugpEfY.jpg');
+  createAndSaveElement('Xbox Series X', 499, 'https://i.imgur.com/HgPROm3.jpg');
   createAndSaveElement(
     'Iphone 13 Pro Max - 1TB',
     1499,
