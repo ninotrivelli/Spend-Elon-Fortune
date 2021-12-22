@@ -437,19 +437,19 @@ function preLoad() {
   createAndSaveElement(
     'Produce a Hollywood Movie',
     90000000,
-    'https://i.imgur.com/JnQxbcn.jpg'
+    'https://i.imgur.com/gYFuXLE.jpg'
   );
 
   createAndSaveElement(
     'Regular Modern Apartment (3 bd, 2 ba)',
     320000,
-    'https://i.imgur.com/6O3q6qR.jpg'
+    'https://i.imgur.com/M1hLEQ4.jpg'
   );
 
   createAndSaveElement(
     'Paris Luxury Apartment(3 bd, 3 ba)',
     3200000,
-    'https://i.imgur.com/dC7f2hN.jpg'
+    'https://i.imgur.com/izKKBfM.jpg'
   );
 
   createAndSaveElement(
@@ -467,15 +467,15 @@ function preLoad() {
   createAndSaveElement(
     'Modern Building (35 condos + 10 Offices)',
     12000000,
-    'https://i.imgur.com/gqBAmHe.jpg'
+    'https://i.imgur.com/qtlfCFv.jpg'
   );
 
-  createAndSaveElement('Sailboat', 130000, 'https://i.imgur.com/iLZmBPD.jpg');
+  createAndSaveElement('Sailboat', 130000, 'https://i.imgur.com/ucF5agb.jpg');
 
   createAndSaveElement(
     'Mega Yatch',
     300000000,
-    'https://i.imgur.com/TGQFkeb.jpg'
+    'https://i.imgur.com/ch7b6Yh.jpg'
   );
 }
 
