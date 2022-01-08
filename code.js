@@ -336,7 +336,7 @@ function preLoad() {
   createAndSaveElement(
     'Tesla Roadster 2022',
     200000,
-    'https://i.imgur.com/tcJqRCn.jpg'
+    'https://i.imgur.com/AHkboQ5.jpg'
   );
   createAndSaveElement('Ferrari F8', 276000, 'https://i.imgur.com/WzJBQ28.jpg');
 
