@@ -332,7 +332,14 @@ function preLoad() {
     70000,
     'https://i.imgur.com/VcilGS4.jpg'
   );
+
+  createAndSaveElement(
+    'Tesla Roadster 2022',
+    200000,
+    'https://i.imgur.com/tcJqRCn.jpg'
+  );
   createAndSaveElement('Ferrari F8', 276000, 'https://i.imgur.com/WzJBQ28.jpg');
+
   createAndSaveElement(
     'Lamborghini Aventador SVJ',
     512000,
