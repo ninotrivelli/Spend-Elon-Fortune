@@ -270,6 +270,12 @@ function preLoad() {
   );
 
   createAndSaveElement(
+    'Ipad Air M1 Chip (2022) (256GB)',
+    749,
+    'https://i.imgur.com/2fWckgJ.jpg'
+  );
+
+  createAndSaveElement(
     'Open Fast Food Franchise',
     1500000,
     'https://i.imgur.com/PzvSI1z.jpg'
