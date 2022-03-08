@@ -242,13 +242,13 @@ function preLoad() {
     'https://i.imgur.com/1Vf4DWy.jpg'
   );
   createAndSaveElement(
-    "New MacBook Pro 14' M1 Max (64GB Ram | 4TB) ",
+    "New MacBook Pro 14' M1 Max (64GB | 4TB) ",
     4699,
     'https://i.imgur.com/69V42nb.jpg'
   );
 
   createAndSaveElement(
-    'New 2022 Mac Studio M1 Ultra (128GB Ram | 8TB)',
+    'New 2022 Mac Studio M1 Ultra (128GB | 8TB)',
     6999,
     'https://i.imgur.com/TaO01Rv.jpg'
   );
