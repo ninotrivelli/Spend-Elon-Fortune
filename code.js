@@ -276,6 +276,12 @@ function preLoad() {
   );
 
   createAndSaveElement(
+    'Buy the rest of Twitter',
+    30000000000,
+    'https://i.imgur.com/oUWJ7mK.jpg'
+  );
+
+  createAndSaveElement(
     'Open Fast Food Franchise',
     1500000,
     'https://i.imgur.com/PzvSI1z.jpg'
