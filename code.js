@@ -277,7 +277,7 @@ function preLoad() {
 
   createAndSaveElement(
     'Buy the rest of Twitter',
-    30000000000,
+    43000000000,
     'https://i.imgur.com/oUWJ7mK.jpg'
   );
 
