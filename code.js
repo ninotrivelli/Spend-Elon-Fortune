@@ -276,9 +276,9 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    'Buy the rest of Twitter',
-    43000000000,
-    'https://i.imgur.com/oUWJ7mK.jpg'
+    'Start your own StartUp',
+    5000000,
+    'https://i.imgur.com/e22zI0t.jpg'
   );
 
   createAndSaveElement(
