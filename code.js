@@ -233,7 +233,7 @@ function preLoad() {
   createAndSaveElement('Xbox Series X', 499, 'https://i.imgur.com/HgPROm3.jpg');
   createAndSaveElement(
     ' New Iphone 14 Pro Max - 1TB',
-    1499,
+    1599,
     'https://i.imgur.com/SH7FrjV.jpg'
   );
   createAndSaveElement(
