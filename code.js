@@ -232,9 +232,9 @@ function preLoad() {
   createAndSaveElement('PS5', 499, 'https://i.imgur.com/CugpEfY.jpg');
   createAndSaveElement('Xbox Series X', 499, 'https://i.imgur.com/HgPROm3.jpg');
   createAndSaveElement(
-    'Iphone 13 Pro Max - 1TB',
+    ' New Iphone 14 Pro Max - 1TB',
     1499,
-    'https://i.imgur.com/uUyKgKG.jpg'
+    'https://i.imgur.com/SH7FrjV.jpg'
   );
   createAndSaveElement(
     'Samsung S22 Ultra - 1TB',
