@@ -276,6 +276,12 @@ function preLoad() {
   );
 
   createAndSaveElement(
+    'Tesla Bot (2024)',
+    20000,
+    'https://i.imgur.com/PPRo68K.jpg'
+  );
+
+  createAndSaveElement(
     'Start your own StartUp',
     5000000,
     'https://i.imgur.com/e22zI0t.jpg'
