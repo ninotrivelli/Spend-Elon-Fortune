@@ -276,7 +276,7 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    'Tesla Bot (2024)',
+    'Tesla Bot (Available 2024)',
     20000,
     'https://i.imgur.com/PPRo68K.jpg'
   );
