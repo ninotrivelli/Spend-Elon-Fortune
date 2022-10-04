@@ -232,7 +232,7 @@ function preLoad() {
   createAndSaveElement('PS5', 499, 'https://i.imgur.com/CugpEfY.jpg');
   createAndSaveElement('Xbox Series X', 499, 'https://i.imgur.com/HgPROm3.jpg');
   createAndSaveElement(
-    ' New Iphone 14 Pro Max - 1TB',
+    'Iphone 14 Pro Max - 1TB',
     1599,
     'https://i.imgur.com/SH7FrjV.jpg'
   );
@@ -242,13 +242,13 @@ function preLoad() {
     'https://i.imgur.com/1Vf4DWy.jpg'
   );
   createAndSaveElement(
-    "New MacBook Pro 14' M1 Max (64GB RAM | 4TB) ",
+    "MacBook Pro 14' M1 Max (64GB RAM | 4TB) ",
     4699,
     'https://i.imgur.com/69V42nb.jpg'
   );
 
   createAndSaveElement(
-    'New 2022 Mac Studio M1 Ultra (128GB RAM | 8TB)',
+    '2022 Mac Studio M1 Ultra (128GB RAM | 8TB)',
     6999,
     'https://i.imgur.com/TaO01Rv.jpg'
   );
