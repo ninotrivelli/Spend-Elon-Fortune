@@ -236,3 +236,8 @@ button {
     padding: 0.4rem;
   }
 }
+
+
+input[type="button"]{ 
+  touch-action: manipulation; 
+}
