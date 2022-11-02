@@ -1,6 +1,6 @@
 /* Global font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500&display=swap');
-* { touch-action: none; pointer-events: none; } input, button, a { pointer-events: auto; }
+/* * { touch-action: none; pointer-events: none; } input, button, a { pointer-events: auto; } */
 * {
   box-sizing: border-box;
   padding: 0;
