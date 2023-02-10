@@ -254,8 +254,8 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    'Pro Gaming PC(AMD 5950X, RTX 3090, 64GB, 4TB SSD)',
-    4950,
+    'Pro Gaming PC(I9 13900K, RTX 4090, 64GB, 4TB SSD)',
+    6950,
     'https://i.imgur.com/PXJj7z0.jpg'
   );
   createAndSaveElement(
