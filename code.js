@@ -242,7 +242,7 @@ function preLoad() {
     'https://i.imgur.com/qRRiCAY.jpg'
   );
   createAndSaveElement(
-    "MacBook Pro 14' M1 Max (64GB RAM | 4TB) ",
+    "MacBook Pro 14' M2 Max (64GB RAM | 4TB) ",
     4699,
     'https://i.imgur.com/69V42nb.jpg'
   );
