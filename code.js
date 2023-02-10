@@ -237,9 +237,9 @@ function preLoad() {
     'https://i.imgur.com/SH7FrjV.jpg'
   );
   createAndSaveElement(
-    'Samsung S22 Ultra - 1TB',
-    1399,
-    'https://i.imgur.com/1Vf4DWy.jpg'
+    'Samsung S23 Ultra - 1TB',
+    1499,
+    'https://i.imgur.com/qRRiCAY.jpg'
   );
   createAndSaveElement(
     "MacBook Pro 14' M1 Max (64GB RAM | 4TB) ",
@@ -248,7 +248,7 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    '2022 Mac Studio M1 Ultra (128GB RAM | 8TB)',
+    '2023 Mac Studio M1 Ultra (128GB RAM | 8TB)',
     6999,
     'https://i.imgur.com/TaO01Rv.jpg'
   );
@@ -259,18 +259,18 @@ function preLoad() {
     'https://i.imgur.com/PXJj7z0.jpg'
   );
   createAndSaveElement(
-    'Razer Blade 14 Top spec (2022)',
+    'Razer Blade 14 Top spec (2023)',
     2799,
     'https://i.imgur.com/XrStrbb.jpg'
   );
   createAndSaveElement(
-    'Mac Pro Top spec (2022) (28 Cores, 8TB SSD, 1TB RAM, 32GB Video)',
+    'Mac Pro Top spec (2023) (28 Cores, 8TB SSD, 1TB RAM, 32GB Video)',
     53799,
     'https://i.imgur.com/Kx4cEmk.jpg'
   );
 
   createAndSaveElement(
-    'Ipad Air M1 Chip (2022) (256GB)',
+    'Ipad Air M1 Chip (2023) (256GB)',
     749,
     'https://i.imgur.com/2fWckgJ.jpg'
   );
@@ -298,18 +298,18 @@ function preLoad() {
     'https://i.imgur.com/ldwb3kB.jpg'
   );
   createAndSaveElement(
-    'Entire Steam library (2022 - No discounts)',
-    628000,
+    'Entire Steam library (2023 - No discounts)',
+    728000,
     'https://i.imgur.com/qXETLS0.jpg'
   );
   createAndSaveElement(
     'Netflix for 80 Years',
-    13500,
+    15500,
     'https://i.imgur.com/ndCJpQO.jpg'
   );
   createAndSaveElement(
-    'Entire production of Nvidia GPUs for 2022',
-    700000000,
+    'Entire production of Nvidia GPUs for 2023',
+    800000000,
     'https://i.imgur.com/gLZoi2G.jpg'
   );
 
@@ -341,7 +341,7 @@ function preLoad() {
     'https://i.imgur.com/SfGExTq.jpg'
   );
   createAndSaveElement(
-    'Ford F150 Raptor 2022',
+    'Ford F150 Raptor 2023',
     65900,
     'https://i.imgur.com/4jSjHIo.jpg'
   );
@@ -358,7 +358,7 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    'Tesla Roadster 2022',
+    'Tesla Roadster 2023',
     200000,
     'https://i.imgur.com/AHkboQ5.jpg'
   );
