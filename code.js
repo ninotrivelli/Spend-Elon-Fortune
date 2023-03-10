@@ -357,7 +357,11 @@ function preLoad() {
     200000,
     'https://i.imgur.com/bX4SeTv.jpg'
   );
-  createAndSaveElement('Ferrari F8', 276000, 'https://i.imgur.com/E7Pk0TQ.jpg');
+  createAndSaveElement(
+    'Ferrari F8 Tributo',
+    276000,
+    'https://i.imgur.com/giumAZC.jpg'
+  );
 
   createAndSaveElement(
     'Lamborghini Aventador SVJ',
