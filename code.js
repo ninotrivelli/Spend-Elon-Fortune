@@ -222,291 +222,290 @@ function createAndSaveElement(elementName, price, image) {
 preLoad();
 
 function preLoad() {
-  createAndSaveElement('AirPods Pro', 249, 'https://i.imgur.com/jImRpPw.jpg');
+  createAndSaveElement('AirPods Pro', 249, 'https://i.imgur.com/9QtYXwu.jpg');
 
   createAndSaveElement(
     'Nintendo Switch',
     299,
-    'https://i.imgur.com/LUyQhmF.jpg'
+    'https://i.imgur.com/NjB1B10.jpg'
   );
-  createAndSaveElement('PS5', 499, 'https://i.imgur.com/CugpEfY.jpg');
-  createAndSaveElement('Xbox Series X', 499, 'https://i.imgur.com/HgPROm3.jpg');
+  createAndSaveElement('PS5', 499, 'https://i.imgur.com/0GPFIYa.jpg');
+  createAndSaveElement('Xbox Series X', 499, 'https://i.imgur.com/B9ePUN9.jpg');
   createAndSaveElement(
     'Iphone 14 Pro Max - 1TB',
     1599,
-    'https://i.imgur.com/SH7FrjV.jpg'
+    'https://i.imgur.com/RDL6SnJ.jpg'
   );
   createAndSaveElement(
     'Samsung S23 Ultra - 1TB',
     1499,
-    'https://i.imgur.com/qRRiCAY.jpg'
+    'https://i.imgur.com/KyWHsKW.jpg'
   );
   createAndSaveElement(
     "MacBook Pro 14' M2 Max (64GB RAM | 4TB) ",
     4699,
-    'https://i.imgur.com/69V42nb.jpg'
+    'https://i.imgur.com/6QjVUZV.jpg'
   );
 
   createAndSaveElement(
     '2023 Mac Studio M1 Ultra (128GB RAM | 8TB)',
     6999,
-    'https://i.imgur.com/TaO01Rv.jpg'
+    'https://i.imgur.com/fminWBH.jpg'
   );
 
   createAndSaveElement(
     'Pro Gaming PC(I9 13900K, RTX 4090, 64GB, 4TB SSD)',
     6950,
-    'https://i.imgur.com/PXJj7z0.jpg'
+    'https://i.imgur.com/diqWGS7.jpg'
   );
   createAndSaveElement(
     'Razer Blade 14 Top spec (2023)',
     2799,
-    'https://i.imgur.com/XrStrbb.jpg'
-  );
-  createAndSaveElement(
-    'Mac Pro Top spec (2023) (28 Cores, 8TB SSD, 1TB RAM, 32GB Video)',
-    53799,
-    'https://i.imgur.com/Kx4cEmk.jpg'
+    'https://i.imgur.com/C91Spgr.jpg'
   );
 
   createAndSaveElement(
     'Ipad Air M1 Chip (2023) (256GB)',
     749,
-    'https://i.imgur.com/2fWckgJ.jpg'
+    'https://i.imgur.com/6cs5d6D.jpg'
   );
 
   createAndSaveElement(
     'Tesla Bot (Available 2024)',
     20000,
-    'https://i.imgur.com/PPRo68K.jpg'
+    'https://i.imgur.com/1zf8Od2.jpg'
   );
 
   createAndSaveElement(
     'Start your own StartUp',
     5000000,
-    'https://i.imgur.com/e22zI0t.jpg'
+    'https://i.imgur.com/F8tPuHG.jpg'
   );
 
   createAndSaveElement(
     'Open Fast Food Franchise',
     1500000,
-    'https://i.imgur.com/PzvSI1z.jpg'
+    'https://i.imgur.com/LSZCZfI.jpg'
   );
   createAndSaveElement(
     'Spotify for 80 years',
-    9600,
-    'https://i.imgur.com/ldwb3kB.jpg'
+    10600,
+    'https://i.imgur.com/sgDA4Jc.jpg'
   );
   createAndSaveElement(
     'Entire Steam library (2023 - No discounts)',
     728000,
-    'https://i.imgur.com/qXETLS0.jpg'
+    'https://i.imgur.com/6GP748G.jpg'
   );
   createAndSaveElement(
     'Netflix for 80 Years',
-    15500,
-    'https://i.imgur.com/ndCJpQO.jpg'
+    16500,
+    'https://i.imgur.com/zGaCSFJ.jpg'
   );
   createAndSaveElement(
     'Entire production of Nvidia GPUs for 2023',
-    800000000,
-    'https://i.imgur.com/gLZoi2G.jpg'
+    900000000,
+    'https://i.imgur.com/kjmUU0f.jpg'
   );
 
   createAndSaveElement(
     'Influence 1 high ranking politician',
     2000000,
-    'https://i.imgur.com/iELtucq.jpg'
+    'https://i.imgur.com/7IB3CLt.jpg'
   );
 
   createAndSaveElement(
     'Private Concert with ANY Super Star',
     1000000,
-    'https://i.imgur.com/NemUFgb.jpg'
+    'https://i.imgur.com/qjQqs0v.jpg'
   );
   createAndSaveElement(
     'Give 10,000 USD to 5000 people',
     50000000,
-    'https://i.imgur.com/kym3viy.jpg'
+    'https://i.imgur.com/NE7sbRU.jpg'
   );
   createAndSaveElement(
     "LG 88' OLED 8K ThinQ®",
     19990,
-    'https://i.imgur.com/OWLoofS.jpg'
+    'https://i.imgur.com/TGGOqdl.jpg'
   );
-  createAndSaveElement('Fiat 500', 19000, 'https://i.imgur.com/apb6YDR.jpg');
+  createAndSaveElement('Fiat 500', 19000, 'https://i.imgur.com/sk9EP1i.jpg');
   createAndSaveElement(
     'Toyota Camry',
     29000,
-    'https://i.imgur.com/SfGExTq.jpg'
+    'https://i.imgur.com/yfQjaS6.jpg'
   );
   createAndSaveElement(
     'Ford F150 Raptor 2023',
     65900,
-    'https://i.imgur.com/4jSjHIo.jpg'
+    'https://i.imgur.com/SaSBjQ7.jpg'
   );
   createAndSaveElement(
     'Tesla Model S Plaid',
     132000,
-    'https://i.imgur.com/mJWmq7c.jpg'
+    'https://i.imgur.com/tfSw6ND.jpg'
   );
 
   createAndSaveElement(
     'Cybertruck (Tri Motor)',
     70000,
-    'https://i.imgur.com/VcilGS4.jpg'
+    'https://i.imgur.com/pHxajOw.jpg'
   );
 
   createAndSaveElement(
-    'Tesla Roadster 2023',
+    'Tesla Roadster 2024',
     200000,
-    'https://i.imgur.com/AHkboQ5.jpg'
+    'https://i.imgur.com/bX4SeTv.jpg'
   );
-  createAndSaveElement('Ferrari F8', 276000, 'https://i.imgur.com/WzJBQ28.jpg');
+  createAndSaveElement('Ferrari F8', 276000, 'https://i.imgur.com/E7Pk0TQ.jpg');
 
   createAndSaveElement(
     'Lamborghini Aventador SVJ',
     512000,
-    'https://i.imgur.com/g9hStpM.jpg'
+    'https://i.imgur.com/NdHxu2p.jpg'
   );
   createAndSaveElement(
     'Bugatti La Voiture Noire',
     11000000,
-    'https://i.imgur.com/z3GMspz.jpg'
+    'https://i.imgur.com/ULFQYv1.jpg'
   );
   createAndSaveElement(
     '1000 Acres of land',
     4100000,
-    'https://i.imgur.com/fzz17Jh.jpg'
+    'https://i.imgur.com/4fY8du1.jpg'
   );
   createAndSaveElement(
     'Private Island, Central America (medium size)',
     4950000,
-    'https://i.imgur.com/hORfY2Y.jpg'
+    'https://i.imgur.com/jtbz2S4.jpg'
   );
   createAndSaveElement(
     'Eating out for 80 years (4 meals/day)',
     3100000,
-    'https://i.imgur.com/1DegErb.jpg'
+    'https://i.imgur.com/CNyhJF3.jpg'
   );
 
   createAndSaveElement(
     'Diamond Ring (Tiffany - 1 carat)',
     17000,
-    'https://i.imgur.com/sCfpUGZ.jpg'
+    'https://i.imgur.com/E8sg2YQ.jpg'
   );
 
   createAndSaveElement(
     'Whisky Macallan Michael Dillon 1926',
     1530000,
-    'https://i.imgur.com/tta1VSx.png'
+    'https://i.imgur.com/momWXBT.jpg'
   );
 
-  createAndSaveElement('Rolex', 12000, 'https://i.imgur.com/yOoFsVc.jpg');
+  createAndSaveElement(
+    'Rolex Oyster',
+    14000,
+    'https://i.imgur.com/MUGVZ8i.jpg'
+  );
   createAndSaveElement(
     'Les Femmes d’Alger by Picasso',
     179400000,
-    'https://i.imgur.com/7iKWz6P.jpg'
+    'https://i.imgur.com/4a6CDQK.jpg'
   );
 
   createAndSaveElement(
     'Monalisa by Leonardo da Vinci (estimate)',
     869000000,
-    'https://i.imgur.com/7gJGSxO.jpg'
+    'https://i.imgur.com/wDo8a6C.jpg'
   );
 
   createAndSaveElement(
     'Helicopter Bell 206',
-    750000,
-    'https://i.imgur.com/PfondRN.jpg'
+    850000,
+    'https://i.imgur.com/rqZ7IIk.jpg'
   );
 
   createAndSaveElement(
     '10 plastic surgeries',
     130000,
-    'https://i.imgur.com/DSTtX6u.jpg'
+    'https://i.imgur.com/yU4EsJj.jpg'
   );
 
   createAndSaveElement(
     'One week in EVERY country of the planet',
     1250000,
-    'https://i.imgur.com/FTlLdn5.jpg'
+    'https://i.imgur.com/dUxUeHi.jpg'
   );
 
   createAndSaveElement(
     'College Education (USA)',
-    170000,
-    'https://i.imgur.com/32IK5OT.jpg'
+    190000,
+    'https://i.imgur.com/fVNcvTE.jpg'
   );
 
   createAndSaveElement(
     'NFL Team (Average)',
     3000000000,
-    'https://i.imgur.com/NlZwVTY.jpg'
+    'https://i.imgur.com/stpt2ZG.jpg'
   );
 
   createAndSaveElement(
     'NBA Team (Average)',
     2400000000,
-    'https://i.imgur.com/4Ri5Db3.jpg'
+    'https://i.imgur.com/dr2aFvN.jpg'
   );
 
   createAndSaveElement(
     'F1 Team (Average)',
     700000000,
-    'https://i.imgur.com/YTCSphH.jpg'
+    'https://i.imgur.com/PKvVuAm.jpg'
   );
 
   createAndSaveElement(
     'Jet Gulfstream G450',
-    17000000,
-    'https://i.imgur.com/nzI2BgD.jpg'
+    18000000,
+    'https://i.imgur.com/QlgwDGF.jpg'
   );
 
-  createAndSaveElement('M1 Abrams', 8000000, 'https://i.imgur.com/pQ5GHLq.jpg');
+  createAndSaveElement('M1 Abrams', 8000000, 'https://i.imgur.com/jemMZg5.jpg');
 
   createAndSaveElement(
     'Produce a Hollywood Movie',
     90000000,
-    'https://i.imgur.com/gYFuXLE.jpg'
+    'https://i.imgur.com/06isRMk.jpg'
   );
 
   createAndSaveElement(
     'Regular Modern Apartment (3 bd, 2 ba)',
-    320000,
-    'https://i.imgur.com/M1hLEQ4.jpg'
+    420000,
+    'https://i.imgur.com/8Dd6fiM.jpg'
   );
 
   createAndSaveElement(
     'Paris Luxury Apartment(3 bd, 3 ba)',
     3200000,
-    'https://i.imgur.com/izKKBfM.jpg'
+    'https://i.imgur.com/my8vglc.jpg'
   );
 
   createAndSaveElement(
     'L.A Home (5bd, 6ba)',
     6000000,
-    'https://i.imgur.com/jUV3CMC.jpg'
+    'https://i.imgur.com/ypjjQYX.jpg'
   );
 
   createAndSaveElement(
     'L.A Mega Mansion (8 bd, 20 ba)',
     52000000,
-    'https://i.imgur.com/2dosPGH.jpg'
+    'https://i.imgur.com/iGbwSSM.jpg'
   );
 
   createAndSaveElement(
     'Modern Building (35 condos + 10 Offices)',
     12000000,
-    'https://i.imgur.com/qtlfCFv.jpg'
+    'https://i.imgur.com/j2JS3Us.jpg'
   );
 
-  createAndSaveElement('Sailboat', 130000, 'https://i.imgur.com/ucF5agb.jpg');
+  createAndSaveElement('Sailboat', 130000, 'https://i.imgur.com/jsbtkG7.jpg');
 
   createAndSaveElement(
     'Mega Yatch',
     300000000,
-    'https://i.imgur.com/ch7b6Yh.jpg'
+    'https://i.imgur.com/DGX1I5F.jpg'
   );
 }
 
