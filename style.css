@@ -1,5 +1,5 @@
 /* Global font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500&display=swap");
 /* * { touch-action: none; pointer-events: none; } input, button, a { pointer-events: auto; } */
 * {
   box-sizing: border-box;
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -85,6 +85,11 @@ header img {
   align-items: center;
 }
 
+.text-center {
+  text-align: center;
+  margin-top: 10rem;
+}
+
 .element {
   max-width: 380px;
   margin: 2rem 3rem;
@@ -128,7 +133,7 @@ header img {
 button {
   cursor: pointer;
   padding: 1.5rem 2rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   border: none;
   border-radius: 5px;
   margin: 1.5rem;
@@ -236,5 +241,3 @@ button {
     padding: 0.4rem;
   }
 }
-
-
