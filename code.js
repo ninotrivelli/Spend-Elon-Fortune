@@ -297,6 +297,13 @@ function preLoad() {
     728000,
     "https://i.imgur.com/6GP748G.jpg"
   );
+
+  createAndSaveElement(
+    "Launch your own satellite with your name",
+    80000000,
+    "https://i.imgur.com/ekogdpq.jpg"
+  );
+
   createAndSaveElement(
     "Netflix for 80 Years",
     16500,
