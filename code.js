@@ -248,7 +248,7 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    "2023 Mac Studio M2 Ultra (128GB RAM | 8TB)",
+    "Mac Studio M2 Ultra (128GB RAM | 8TB)",
     6999,
     "https://i.imgur.com/fminWBH.jpg"
   );
@@ -259,19 +259,19 @@ function preLoad() {
     "https://i.imgur.com/diqWGS7.jpg"
   );
   createAndSaveElement(
-    "Razer Blade 14 Top spec (2023)",
+    "Razer Blade 14 Top spec (2024)",
     2799,
     "https://i.imgur.com/C91Spgr.jpg"
   );
 
   createAndSaveElement(
-    "Ipad Air M2 Chip (2023) (256GB)",
+    "Ipad Air M2 Chip (2024) (256GB)",
     749,
     "https://i.imgur.com/6cs5d6D.jpg"
   );
 
   createAndSaveElement(
-    "Tesla Bot (Available 2024)",
+    "Tesla Bot (Available 2025)",
     20000,
     "https://i.imgur.com/1zf8Od2.jpg"
   );
@@ -293,8 +293,8 @@ function preLoad() {
     "https://i.imgur.com/sgDA4Jc.jpg"
   );
   createAndSaveElement(
-    "Entire Steam library (2023 - No discounts)",
-    728000,
+    "Entire Steam library (2024 - No discounts)",
+    828000,
     "https://i.imgur.com/6GP748G.jpg"
   );
 
@@ -310,8 +310,8 @@ function preLoad() {
     "https://i.imgur.com/zGaCSFJ.jpg"
   );
   createAndSaveElement(
-    "Entire production of Nvidia GPUs for 2023",
-    900000000,
+    "Entire production of Nvidia GPUs for 2024",
+    1100000000,
     "https://i.imgur.com/kjmUU0f.jpg"
   );
 
@@ -343,7 +343,7 @@ function preLoad() {
     "https://i.imgur.com/yfQjaS6.jpg"
   );
   createAndSaveElement(
-    "Ford F150 Raptor 2023",
+    "Ford F150 Raptor 2024",
     65900,
     "https://i.imgur.com/SaSBjQ7.jpg"
   );
