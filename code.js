@@ -237,18 +237,18 @@ function preLoad() {
     "https://i.imgur.com/VmU4KDK.jpg"
   );
   createAndSaveElement(
-    "Samsung S23 Ultra - 1TB",
+    "Samsung S24 Ultra - 1TB",
     1499,
-    "https://i.imgur.com/KyWHsKW.jpg"
+    "https://i.imgur.com/Dfnlv06.png"
   );
   createAndSaveElement(
-    "MacBook Pro 14' M2 Max (64GB RAM | 4TB) ",
+    "MacBook Pro 14' M3 Max (64GB RAM | 4TB) ",
     4699,
     "https://i.imgur.com/6QjVUZV.jpg"
   );
 
   createAndSaveElement(
-    "Mac Studio M2 Ultra (128GB RAM | 8TB)",
+    "Mac Studio M3 Ultra (128GB RAM | 8TB)",
     6999,
     "https://i.imgur.com/fminWBH.jpg"
   );
@@ -271,7 +271,7 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    "Tesla Bot (Available 2025)",
+    "Tesla Bot (Available 2026)",
     20000,
     "https://i.imgur.com/1zf8Od2.jpg"
   );
