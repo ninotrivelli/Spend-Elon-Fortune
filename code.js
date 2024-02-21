@@ -254,7 +254,7 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    "Pro Gaming PC(I9 13900K, RTX 4090, 64GB, 4TB SSD)",
+    "Pro Gaming PC(I9 14900K, RTX 4090, 64GB, 4TB SSD)",
     6950,
     "https://i.imgur.com/diqWGS7.jpg"
   );
@@ -284,12 +284,12 @@ function preLoad() {
 
   createAndSaveElement(
     "Open Fast Food Franchise",
-    1500000,
+    1200000,
     "https://i.imgur.com/LSZCZfI.jpg"
   );
   createAndSaveElement(
     "Spotify for 80 years",
-    10600,
+    12600,
     "https://i.imgur.com/sgDA4Jc.jpg"
   );
   createAndSaveElement(
@@ -306,7 +306,7 @@ function preLoad() {
 
   createAndSaveElement(
     "Netflix for 80 Years",
-    16500,
+    18500,
     "https://i.imgur.com/zGaCSFJ.jpg"
   );
   createAndSaveElement(
@@ -382,7 +382,7 @@ function preLoad() {
   );
   createAndSaveElement(
     "1000 Acres of land",
-    4100000,
+    5100000,
     "https://i.imgur.com/4fY8du1.jpg"
   );
   createAndSaveElement(
