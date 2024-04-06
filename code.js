@@ -7,7 +7,7 @@ let sellButtons = document.querySelectorAll("#sell");
 const appContainer = document.querySelector(".app-container");
 
 // Default data
-let elonFortune = 217000000000;
+let elonFortune = 195000000000;
 let totalPercentage = 100;
 
 let elements = [];
@@ -29,7 +29,7 @@ function buyItem(element) {
 
   if (elonFortune - Number(element.dataset.price) >= 0) {
     elonFortune -= Number(element.dataset.price);
-    totalPercentage = (elonFortune * 100) / 217000000000;
+    totalPercentage = (elonFortune * 100) / 195000000000;
 
     // Item name
     let itemName = element.parentElement.querySelector("#name").textContent;
@@ -84,7 +84,7 @@ function sellItem(element) {
   // change default data to new data
 
   elonFortune += Number(element.dataset.price);
-  totalPercentage = (elonFortune * 100) / 217000000000;
+  totalPercentage = (elonFortune * 100) / 195000000000;
 
   // Item name
   let itemName = element.parentElement.querySelector("p").textContent;
@@ -177,7 +177,7 @@ function updateReceiptItem(receiptItem) {
 function updateReceipt() {
   let title = `<h1>Receipt</h1>`;
   let receipt = "";
-  let total = formatMoney(217000000000 - elonFortune);
+  let total = formatMoney(195000000000 - elonFortune);
 
   for (let i = 0; i < receiptItemsArr.length; i++) {
     let itemX = receiptItemsArr[i];
