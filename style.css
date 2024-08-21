@@ -140,6 +140,13 @@ button {
   background-color: white;
 }
 
+button {
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
 .btn-buy {
   background-color: rgb(158, 221, 153);
 }
