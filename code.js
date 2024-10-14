@@ -409,10 +409,17 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    "Rolex Oyster",
+    "Rolex Oyster 36mm",
     14000,
     "https://i.imgur.com/MUGVZ8i.jpg"
   );
+
+  createAndSaveElement(
+    "Rolex Day Date 40mm Gold",
+    65000,
+    "https://i.imgur.com/Cynw2Zw.png"
+  );
+
   createAndSaveElement(
     "Les Femmes d’Alger by Picasso",
     179400000,
