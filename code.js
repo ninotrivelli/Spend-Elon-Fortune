@@ -232,9 +232,9 @@ function preLoad() {
   createAndSaveElement("PS5", 499, "https://i.imgur.com/0GPFIYa.jpg");
   createAndSaveElement("Xbox Series X", 499, "https://i.imgur.com/B9ePUN9.jpg");
   createAndSaveElement(
-    "Iphone 15 Pro Max Titanium - 1TB",
+    "Iphone 16 Pro Max Titanium - 1TB",
     1599,
-    "https://i.imgur.com/VmU4KDK.jpg"
+    "https://i.imgur.com/nir7Vm0.jpeg"
   );
   createAndSaveElement(
     "Samsung S24 Ultra - 1TB",
@@ -242,13 +242,13 @@ function preLoad() {
     "https://i.imgur.com/Dfnlv06.png"
   );
   createAndSaveElement(
-    "MacBook Pro 14' M3 Max (64GB RAM | 4TB) ",
-    4699,
+    "MacBook Pro 14' M4 Max (128GB RAM | 8TB) ",
+    7699,
     "https://i.imgur.com/6QjVUZV.jpg"
   );
 
   createAndSaveElement(
-    "Mac Studio M3 Ultra (128GB RAM | 8TB)",
+    "Mac Studio M2 Ultra (128GB RAM | 8TB)",
     6999,
     "https://i.imgur.com/fminWBH.jpg"
   );
@@ -259,13 +259,13 @@ function preLoad() {
     "https://i.imgur.com/diqWGS7.jpg"
   );
   createAndSaveElement(
-    "Razer Blade 14 Top spec (2024)",
+    "Razer Blade 14 Top spec (2025)",
     2799,
     "https://i.imgur.com/C91Spgr.jpg"
   );
 
   createAndSaveElement(
-    "Ipad Air M2 Chip (2024) (256GB)",
+    "Ipad Air M2 Chip (256GB)",
     749,
     "https://i.imgur.com/6cs5d6D.jpg"
   );
@@ -293,8 +293,8 @@ function preLoad() {
     "https://i.imgur.com/sgDA4Jc.jpg"
   );
   createAndSaveElement(
-    "Entire Steam library (2024 - No discounts)",
-    828000,
+    "Entire Steam library (2025 - No discounts)",
+    928000,
     "https://i.imgur.com/6GP748G.jpg"
   );
 
@@ -310,8 +310,8 @@ function preLoad() {
     "https://i.imgur.com/zGaCSFJ.jpg"
   );
   createAndSaveElement(
-    "Entire production of Nvidia GPUs for 2024",
-    1100000000,
+    "Entire production of Nvidia GPUs for 2025",
+    3100000000,
     "https://i.imgur.com/kjmUU0f.jpg"
   );
 
@@ -343,7 +343,7 @@ function preLoad() {
     "https://i.imgur.com/yfQjaS6.jpg"
   );
   createAndSaveElement(
-    "Ford F150 Raptor 2024",
+    "Ford F150 Raptor 2025",
     65900,
     "https://i.imgur.com/SaSBjQ7.jpg"
   );
@@ -360,7 +360,7 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    "Tesla Roadster 2024",
+    "Tesla Roadster (available 2026)",
     200000,
     "https://i.imgur.com/bX4SeTv.jpg"
   );
