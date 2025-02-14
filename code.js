@@ -311,7 +311,7 @@ function preLoad() {
   );
   createAndSaveElement(
     "Entire production of Nvidia GPUs for 2025",
-    3100000000,
+    4100000000,
     "https://i.imgur.com/kjmUU0f.jpg"
   );
 
