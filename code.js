@@ -254,7 +254,7 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    "Pro Gaming PC(I9 14900K, RTX 4090, 64GB, 4TB SSD)",
+    "Pro Gaming PC(I9 14900K, RTX 5090, 64GB, 4TB SSD)",
     6950,
     "https://i.imgur.com/diqWGS7.jpg"
   );
