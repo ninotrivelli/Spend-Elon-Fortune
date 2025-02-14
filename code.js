@@ -237,7 +237,7 @@ function preLoad() {
     "https://i.imgur.com/nir7Vm0.jpeg"
   );
   createAndSaveElement(
-    "Samsung S24 Ultra - 1TB",
+    "Samsung S25 Ultra - 1TB",
     1499,
     "https://i.imgur.com/Dfnlv06.png"
   );
