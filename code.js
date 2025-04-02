@@ -248,8 +248,8 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    "Mac Studio M2 Ultra (128GB RAM | 8TB)",
-    6999,
+    "Mac Studio M3 Ultra (512GB RAM | 16TB SSD)",
+    14099,
     "https://i.imgur.com/fminWBH.jpg"
   );
 
@@ -265,7 +265,7 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    "Ipad Air M2 Chip (256GB)",
+    "Ipad Air M3 Chip (256GB)",
     749,
     "https://i.imgur.com/6cs5d6D.jpg"
   );
@@ -306,7 +306,7 @@ function preLoad() {
 
   createAndSaveElement(
     "Netflix for 80 Years",
-    18500,
+    17500,
     "https://i.imgur.com/zGaCSFJ.jpg"
   );
   createAndSaveElement(
@@ -317,7 +317,7 @@ function preLoad() {
 
   createAndSaveElement(
     "Influence 1 high ranking politician",
-    2000000,
+    3000000,
     "https://i.imgur.com/7IB3CLt.jpg"
   );
 
@@ -392,13 +392,13 @@ function preLoad() {
   );
   createAndSaveElement(
     "Eating out for 80 years (4 meals/day)",
-    3100000,
+    4100000,
     "https://i.imgur.com/CNyhJF3.jpg"
   );
 
   createAndSaveElement(
-    "Diamond Ring (Tiffany - 1 carat)",
-    17000,
+    "Diamond Ring (Tiffany - 1.5 carat)",
+    20000,
     "https://i.imgur.com/E8sg2YQ.jpg"
   );
 
@@ -476,7 +476,7 @@ function preLoad() {
 
   createAndSaveElement(
     "Jet Gulfstream G450",
-    18000000,
+    22000000,
     "https://i.imgur.com/QlgwDGF.jpg"
   );
 
@@ -489,32 +489,32 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    "Regular Modern Apartment (3 bd, 2 ba)",
-    420000,
+    "Regular Modern Apartment (2 bd, 2 ba)",
+    480000,
     "https://i.imgur.com/8Dd6fiM.jpg"
   );
 
   createAndSaveElement(
     "Paris Luxury Apartment(3 bd, 3 ba)",
-    3200000,
+    3800000,
     "https://i.imgur.com/my8vglc.jpg"
   );
 
   createAndSaveElement(
     "L.A Home (5bd, 6ba)",
-    6000000,
+    6500000,
     "https://i.imgur.com/ypjjQYX.jpg"
   );
 
   createAndSaveElement(
     "L.A Mega Mansion (8 bd, 20 ba)",
-    52000000,
+    65000000,
     "https://i.imgur.com/iGbwSSM.jpg"
   );
 
   createAndSaveElement(
     "Modern Building (35 condos + 10 Offices)",
-    12000000,
+    14000000,
     "https://i.imgur.com/j2JS3Us.jpg"
   );
 
