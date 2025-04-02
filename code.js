@@ -310,8 +310,8 @@ function preLoad() {
     "https://i.imgur.com/zGaCSFJ.jpg"
   );
   createAndSaveElement(
-    "Entire production of Nvidia GPUs for 2025",
-    4100000000,
+    "Entire production of Nvidia RTX GPUs for 2025",
+    6100000000,
     "https://i.imgur.com/kjmUU0f.jpg"
   );
 
