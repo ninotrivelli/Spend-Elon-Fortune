@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Bernard Arnault",
+    "net_worth": 210000000000
+  },
+  {
+    "name": "Elon Musk",
+    "net_worth": 200000000000
+  },
+  {
+    "name": "Jeff Bezos",
+    "net_worth": 190000000000
+  },
+  {
+    "name": "Larry Ellison",
+    "net_worth": 155000000000
+  },
+  {
+    "name": "Mark Zuckerberg",
+    "net_worth": 150000000000
+  },
+  {
+    "name": "Bill Gates",
+    "net_worth": 130000000000
+  },
+  {
+    "name": "Warren Buffett",
+    "net_worth": 120000000000
+  },
+  {
+    "name": "Larry Page",
+    "net_worth": 115000000000
+  },
+  {
+    "name": "Sergey Brin",
+    "net_worth": 110000000000
+  },
+  {
+    "name": "Steve Ballmer",
+    "net_worth": 105000000000
+  }
+]

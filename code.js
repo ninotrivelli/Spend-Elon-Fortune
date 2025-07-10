@@ -5,12 +5,51 @@ let percentageElement = document.querySelector("#percentageLeft");
 let buyButtons = document.querySelectorAll("#buy");
 let sellButtons = document.querySelectorAll("#sell");
 const appContainer = document.querySelector(".app-container");
+const personSelect = document.querySelector("#personSelect");
 
 // Default data
-let elonFortune = 245000000000;
+let startingFortune = 245000000000;
+let currentFortune = startingFortune;
 let totalPercentage = 100;
 
 let elements = [];
+let richestPeople = [];
+
+async function loadRichestPeople() {
+  const resp = await fetch('data/richest_people.json');
+  richestPeople = await resp.json();
+  richestPeople.forEach((person, index) => {
+    const opt = document.createElement('option');
+    opt.value = person.net_worth;
+    opt.textContent = person.name;
+    if (index === 0) opt.selected = true;
+    personSelect.appendChild(opt);
+  });
+  startingFortune = Number(personSelect.value);
+  currentFortune = startingFortune;
+  personSelect.addEventListener('change', () => {
+    startingFortune = Number(personSelect.value);
+    currentFortune = startingFortune;
+    totalPercentage = 100;
+    updateTotalAndPercentage();
+  });
+}
+
+async function loadCpiItems() {
+  const resp = await fetch('data/cpi_items.json');
+  const items = await resp.json();
+  items.forEach((item) =>
+    createAndSaveElement(item.name, item.price, './img/usd-circle.svg')
+  );
+}
+
+async function init() {
+  await loadRichestPeople();
+  preLoad();
+  await loadCpiItems();
+  renderElements();
+  updateTotalAndPercentage();
+}
 
 // Events
 appContainer.addEventListener("click", (e) => {
@@ -27,9 +66,9 @@ appContainer.addEventListener("click", (e) => {
 function buyItem(element) {
   // change default data to new data
 
-  if (elonFortune - Number(element.dataset.price) >= 0) {
-    elonFortune -= Number(element.dataset.price);
-    totalPercentage = (elonFortune * 100) / 245000000000;
+  if (currentFortune - Number(element.dataset.price) >= 0) {
+    currentFortune -= Number(element.dataset.price);
+    totalPercentage = (currentFortune * 100) / startingFortune;
 
     // Item name
     let itemName = element.parentElement.querySelector("#name").textContent;
@@ -83,8 +122,8 @@ function createReciptItem(name, amount, total) {
 function sellItem(element) {
   // change default data to new data
 
-  elonFortune += Number(element.dataset.price);
-  totalPercentage = (elonFortune * 100) / 245000000000;
+  currentFortune += Number(element.dataset.price);
+  totalPercentage = (currentFortune * 100) / startingFortune;
 
   // Item name
   let itemName = element.parentElement.querySelector("p").textContent;
@@ -114,7 +153,7 @@ function sellItem(element) {
 
 function updateTotalAndPercentage() {
   totalMoneyElement.innerHTML = `<p class="totalMoney">Remaining: ${formatMoney(
-    elonFortune
+    currentFortune
   )} USD</p>`;
   percentageElement.innerHTML = `<p class ="percentageLeft">You only spent ${(
     100 - totalPercentage
@@ -177,7 +216,7 @@ function updateReceiptItem(receiptItem) {
 function updateReceipt() {
   let title = `<h1>Receipt</h1>`;
   let receipt = "";
-  let total = formatMoney(245000000000 - elonFortune);
+  let total = formatMoney(startingFortune - currentFortune);
 
   for (let i = 0; i < receiptItemsArr.length; i++) {
     let itemX = receiptItemsArr[i];
@@ -218,8 +257,6 @@ function createAndSaveElement(elementName, price, image) {
     elements.push(newElement);
   }
 }
-
-preLoad();
 
 function preLoad() {
   createAndSaveElement("AirPods Pro", 249, "https://i.imgur.com/9QtYXwu.jpg");
@@ -527,19 +564,24 @@ function preLoad() {
   );
 }
 
-elements.forEach((element) => {
-  let newElement = document.createElement("div");
+function renderElements() {
+  appContainer.innerHTML = "";
+  elements.forEach((element) => {
+    let newElement = document.createElement("div");
 
-  newElement.classList.add("element");
+    newElement.classList.add("element");
 
-  newElement.innerHTML = `<img src="${element.image}" alt="${element.name}" />
-  <p id="name">${element.name}</p>
-  <span id="price">USD ${formatMoney(element.price)}</span>
-  <div class="buyAndSellContainer" data-price="${element.price}">
-    <button class="btn-sell" id="sell" disabled>Sell</button>
-    <span id="amount">${element.amount}</span>
-    <button class="btn-buy" id="buy" >Buy</button>
-  </div>`;
+    newElement.innerHTML = `<img src="${element.image}" alt="${element.name}" />
+    <p id="name">${element.name}</p>
+    <span id="price">USD ${formatMoney(element.price)}</span>
+    <div class="buyAndSellContainer" data-price="${element.price}">
+      <button class="btn-sell" id="sell" disabled>Sell</button>
+      <span id="amount">${element.amount}</span>
+      <button class="btn-buy" id="buy" >Buy</button>
+    </div>`;
 
-  appContainer.appendChild(newElement);
-});
+    appContainer.appendChild(newElement);
+  });
+}
+
+init();

@@ -1,0 +1,18 @@
+[
+  {"name": "Loaf of Bread", "price": 3},
+  {"name": "Gallon of Milk", "price": 4},
+  {"name": "Dozen Eggs", "price": 5},
+  {"name": "Pound of Chicken", "price": 6},
+  {"name": "Coffee (1 lb)", "price": 8},
+  {"name": "Monthly Rent", "price": 1300},
+  {"name": "Electricity Bill", "price": 120},
+  {"name": "Natural Gas Bill", "price": 90},
+  {"name": "Bus Fare", "price": 3},
+  {"name": "Gasoline (gallon)", "price": 3.8},
+  {"name": "Doctor Visit", "price": 150},
+  {"name": "Prescription Drugs", "price": 50},
+  {"name": "Movie Ticket", "price": 12},
+  {"name": "College Tuition (year)", "price": 12000},
+  {"name": "Cell Phone Plan", "price": 70},
+  {"name": "Haircut", "price": 25}
+]

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta
       name="description"
-      content="The most popular simulator on spending Elon's Billions. Can you spend it all?"
+      content="A simulator for spending the fortunes of the world's richest people. Can you spend it all?"
     />
     <!-- Google Analytics -->
     <script
@@ -28,7 +28,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>Spend Elon Musk's Money</title>
+    <title>Spend a Billionaire's Money</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="./img/usd-circle.svg" />
   </head>
@@ -36,15 +36,15 @@
     <header>
       <img src="https://i.imgur.com/sroyZau.jpg" alt="" />
       <div class="title-container">
-        <h1>Spend Elon Musk's Fortune!</h1>
+        <h1>Spend a Billionaire's Fortune!</h1>
         <p>
-          If Elon cashed out all of his stocks & assets today he would have
-          <br />
-          approximately <strong>$245,000,000,000</strong> (US Dollars) in his
-          bank account (Forbes 2024).
+          Select from the richest people on earth and see if you can spend their
+          fortune.
         </p>
         <p>¿What would you <strong>spend it</strong> on?</p>
         <p>¡Have your receipt at the end!</p>
+        <label for="personSelect">Choose a fortune:</label>
+        <select id="personSelect"></select>
       </div>
     </header>
 
@@ -67,8 +67,8 @@
     </script>
     <!-- AD TEST END -->
 
-    <div class="total">
-      <p class="totalMoney" id="totalMoney">Remaining: $245,000,000,000</p>
+      <div class="total">
+        <p class="totalMoney" id="totalMoney">Remaining: Loading...</p>
       <p class="percentageLeft" id="percentageLeft">
         You haven't spent a single dollar! start buying!
       </p>
