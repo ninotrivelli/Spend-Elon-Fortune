@@ -120,14 +120,17 @@ header img {
   padding: 0.3rem;
 }
 
-.element span {
+.element input {
   font-size: 1.8rem;
+  width: 60px;
+  text-align: center;
 }
 
 .buyAndSellContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 0.5rem;
 }
 
 button {
@@ -202,6 +205,28 @@ button {
 .btn-print button:hover {
   background-color: rgb(125, 135, 143);
   color: white;
+}
+
+.income-calc {
+  text-align: center;
+  padding: 2rem;
+}
+.income-calc label {
+  display: block;
+  font-size: 1.6rem;
+  margin: 0.5rem 0;
+}
+.income-calc input {
+  width: 150px;
+  margin-left: 0.5rem;
+}
+.income-calc button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+}
+.income-calc p {
+  font-size: 1.8rem;
+  margin-top: 1rem;
 }
 
 .coffe-link {
