@@ -234,7 +234,7 @@ function preLoad() {
   createAndSaveElement(
     "Iphone 17 Pro Max - 2TB",
     1999,
-    "https://imgur.com/6fa1d739-08a4-463e-b845-df6923fb9048"
+    "https://i.imgur.com/zdoBKrm.jpeg"
   );
   createAndSaveElement(
     "Samsung S25 Ultra - 1TB",
