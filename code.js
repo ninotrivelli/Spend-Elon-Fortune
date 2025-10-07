@@ -232,9 +232,9 @@ function preLoad() {
   createAndSaveElement("PS5", 499, "https://i.imgur.com/0GPFIYa.jpg");
   createAndSaveElement("Xbox Series X", 499, "https://i.imgur.com/B9ePUN9.jpg");
   createAndSaveElement(
-    "Iphone 16 Pro Max Titanium - 1TB",
-    1599,
-    "https://i.imgur.com/nir7Vm0.jpeg"
+    "Iphone 17 Pro Max - 2TB",
+    1999,
+    "https://imgur.com/6fa1d739-08a4-463e-b845-df6923fb9048"
   );
   createAndSaveElement(
     "Samsung S25 Ultra - 1TB",
@@ -271,8 +271,8 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    "Tesla Bot (Available 2026)",
-    20000,
+    "Tesla Bot (Available 2027)",
+    25000,
     "https://i.imgur.com/1zf8Od2.jpg"
   );
 
@@ -289,12 +289,12 @@ function preLoad() {
   );
   createAndSaveElement(
     "Spotify for 80 years",
-    12600,
+    13600,
     "https://i.imgur.com/sgDA4Jc.jpg"
   );
   createAndSaveElement(
     "Entire Steam library (2025 - No discounts)",
-    928000,
+    1228000,
     "https://i.imgur.com/6GP748G.jpg"
   );
 
@@ -306,7 +306,7 @@ function preLoad() {
 
   createAndSaveElement(
     "Netflix for 80 Years",
-    17500,
+    19500,
     "https://i.imgur.com/zGaCSFJ.jpg"
   );
   createAndSaveElement(
