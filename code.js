@@ -320,6 +320,24 @@ function preLoad() {
   );
 
   createAndSaveElement(
+    "Big AI Data Center",
+    5000000000,
+    "https://i.imgur.com/bKAjsIC.png",
+  );
+
+  createAndSaveElement(
+    "Mars Colony Starter Pack",
+    200000000000,
+    "https://i.imgur.com/f6L2XZQ.png",
+  );
+
+  createAndSaveElement(
+    "All World Cup Final Tickets",
+    80000000,
+    "https://i.imgur.com/3xVMNBm.png",
+  );
+
+  createAndSaveElement(
     "Netflix for 80 Years",
     19500,
     "https://i.imgur.com/zGaCSFJ.jpg",
@@ -538,7 +556,7 @@ function preLoad() {
   createAndSaveElement(
     "Mega Yatch",
     300000000,
-    "https://i.imgur.com/DGX1I5F.jpg",
+    "https://i.imgur.com/U8ObVPd.png",
   );
 }
 
