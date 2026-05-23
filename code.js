@@ -274,7 +274,7 @@ function preLoad() {
     "https://i.imgur.com/diqWGS7.jpg",
   );
   createAndSaveElement(
-    "Razer Blade 14 Top spec (2025)",
+    "Razer Blade 14 Top spec (2026)",
     2799,
     "https://i.imgur.com/C91Spgr.jpg",
   );
@@ -308,8 +308,8 @@ function preLoad() {
     "https://i.imgur.com/sgDA4Jc.jpg",
   );
   createAndSaveElement(
-    "Entire Steam library (2025 - No discounts)",
-    1228000,
+    "Entire Steam library (2026 - No discounts)",
+    1428000,
     "https://i.imgur.com/6GP748G.jpg",
   );
 
@@ -331,8 +331,8 @@ function preLoad() {
     "https://i.imgur.com/zGaCSFJ.jpg",
   );
   createAndSaveElement(
-    "Entire production of Nvidia RTX GPUs for 2025",
-    6100000000,
+    "Entire production of Nvidia RTX GPUs for 2026",
+    7200000000,
     "https://i.imgur.com/kjmUU0f.jpg",
   );
 
@@ -364,7 +364,7 @@ function preLoad() {
     "https://i.imgur.com/yfQjaS6.jpg",
   );
   createAndSaveElement(
-    "Ford F150 Raptor 2025",
+    "Ford F150 Raptor 2026",
     65900,
     "https://i.imgur.com/SaSBjQ7.jpg",
   );
