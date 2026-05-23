@@ -320,7 +320,7 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    "All World Cup Final Tickets",
+    "All World Cup 2026 Final Tickets (private show)",
     80000000,
     "https://i.imgur.com/3xVMNBm.png",
   );
