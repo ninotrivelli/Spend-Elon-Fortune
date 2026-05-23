@@ -237,7 +237,7 @@ function preLoad() {
   createAndSaveElement(
     "Nintendo Switch 2",
     499,
-    "https://i.imgur.com/NjB1B10.jpg",
+    "https://i.imgur.com/hpZgFr0.jpeg",
   );
   createAndSaveElement("PS5", 599, "https://i.imgur.com/0GPFIYa.jpg");
   createAndSaveElement("Xbox Series X", 599, "https://i.imgur.com/B9ePUN9.jpg");
