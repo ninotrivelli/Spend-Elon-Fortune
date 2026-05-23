@@ -5,12 +5,16 @@ let percentageElement = document.querySelector("#percentageLeft");
 let buyButtons = document.querySelectorAll("#buy");
 let sellButtons = document.querySelectorAll("#sell");
 const appContainer = document.querySelector(".app-container");
+const fortuneElements = document.querySelectorAll("[data-elon-fortune]");
 
 // Default data
-let elonFortune = 500000000000;
+const ELON_FORTUNE = 650000000000;
+let elonFortune = ELON_FORTUNE;
 let totalPercentage = 100;
 
 let elements = [];
+
+updateFortuneText();
 
 // Events
 appContainer.addEventListener("click", (e) => {
@@ -29,7 +33,7 @@ function buyItem(element) {
 
   if (elonFortune - Number(element.dataset.price) >= 0) {
     elonFortune -= Number(element.dataset.price);
-    totalPercentage = (elonFortune * 100) / 500000000000;
+    totalPercentage = (elonFortune * 100) / ELON_FORTUNE;
 
     // Item name
     let itemName = element.parentElement.querySelector("#name").textContent;
@@ -84,7 +88,7 @@ function sellItem(element) {
   // change default data to new data
 
   elonFortune += Number(element.dataset.price);
-  totalPercentage = (elonFortune * 100) / 500000000000;
+  totalPercentage = (elonFortune * 100) / ELON_FORTUNE;
 
   // Item name
   let itemName = element.parentElement.querySelector("p").textContent;
@@ -124,6 +128,12 @@ function updateTotalAndPercentage() {
 // Format Money Function
 function formatMoney(number) {
   return number.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
+}
+
+function updateFortuneText() {
+  fortuneElements.forEach((element) => {
+    element.textContent = `$${formatMoney(ELON_FORTUNE)}`;
+  });
 }
 
 // Class to create unique receipt items
@@ -177,7 +187,7 @@ function updateReceiptItem(receiptItem) {
 function updateReceipt() {
   let title = `<h1>Receipt</h1>`;
   let receipt = "";
-  let total = formatMoney(500000000000 - elonFortune);
+  let total = formatMoney(ELON_FORTUNE - elonFortune);
 
   for (let i = 0; i < receiptItemsArr.length; i++) {
     let itemX = receiptItemsArr[i];
@@ -242,12 +252,12 @@ function preLoad() {
     "https://i.imgur.com/zdoBKrm.jpeg",
   );
   createAndSaveElement(
-    "Samsung S25 Ultra - 1TB",
+    "Samsung S26 Ultra - 1TB",
     1499,
     "https://i.imgur.com/Dfnlv06.png",
   );
   createAndSaveElement(
-    "MacBook Pro 14' M4 Max (128GB RAM | 8TB) ",
+    "MacBook Pro 14' M5 Max (128GB RAM | 8TB) ",
     7699,
     "https://i.imgur.com/6QjVUZV.jpg",
   );
@@ -428,7 +438,7 @@ function preLoad() {
   createAndSaveElement(
     "Les Femmes d’Alger by Picasso",
     179400000,
-    "https://i.imgur.com/4a6CDQK.jpg",
+    "https://i.imgur.com/J3d7uh9.jpeg",
   );
 
   createAndSaveElement(

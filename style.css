@@ -45,6 +45,13 @@ header img {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
+
+.title-container .trillionaire-note {
+  color: #0c7c59;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
 .title-container small {
   font-size: 1.3rem;
 }

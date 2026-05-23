@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -40,12 +40,16 @@
       <img src="https://i.imgur.com/sroyZau.jpg" alt="" />
       <div class="title-container">
         <h1>Spend Elon Musk's Fortune!</h1>
+        <p class="trillionaire-note">
+          Elon Musk is estimated to become the world's first trillionaire,
+          reaching $1,000,000,000,000 (1 followed by 12 zeros), before 2027.
+        </p>
         <p>
           If Elon cashed out all of his stocks & assets today he would have
           TODAY
           <br />
-          approximately <strong>$500,000,000,000</strong> (US Dollars) in his
-          bank account (Forbes 2025).
+          approximately <strong data-elon-fortune></strong> (US Dollars) in his
+          bank account (Forbes 2026).
         </p>
         <p>¿What would you <strong>spend it</strong> on?</p>
         <p>¡Have your receipt at the end!</p>
@@ -72,7 +76,9 @@
     <!-- AD TEST END -->
 
     <div class="total">
-      <p class="totalMoney" id="totalMoney">Remaining: $500,000,000,000</p>
+      <p class="totalMoney" id="totalMoney">
+        Remaining: <span data-elon-fortune></span>
+      </p>
       <p class="percentageLeft" id="percentageLeft">
         You haven't spent a single dollar! start buying!
       </p>
