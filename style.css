@@ -14,7 +14,8 @@
   --color-paper: #fffdf4;
   --color-paper-border: #ded7c5;
   --radius: 6px;
-  --shadow-soft: rgba(50, 50, 93, 0.18) 0px 18px 36px -18px,
+  --shadow-soft:
+    rgba(50, 50, 93, 0.18) 0px 18px 36px -18px,
     rgba(0, 0, 0, 0.22) 0px 16px 32px -24px;
   --space-page: clamp(1.4rem, 3vw, 3rem);
 }
@@ -43,7 +44,8 @@ header {
   color: var(--color-text);
   background: #fff;
   padding: 2.6rem var(--space-page) 2.4rem;
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+  box-shadow:
+    rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(50, 50, 93, 0.16) 0px 32px 70px -34px,
     rgba(0, 0, 0, 0.18) 0px 24px 44px -34px;
 }
@@ -104,7 +106,8 @@ header img {
   top: 0;
   z-index: 1000;
   transform: translateZ(0);
-  box-shadow: rgba(0, 0, 0, 0.18) 0px 16px 32px -18px,
+  box-shadow:
+    rgba(0, 0, 0, 0.18) 0px 16px 32px -18px,
     rgba(0, 0, 0, 0.16) 0px 8px 14px -12px;
   margin-bottom: 4rem;
 }
@@ -392,7 +395,7 @@ button {
   .total {
     flex-direction: column;
     gap: 0.4rem;
-    padding: 1.05rem 1rem;
+    padding: 1.25rem 1rem;
     margin-bottom: 2.4rem;
   }
 
@@ -402,7 +405,7 @@ button {
 
   .percentageLeft,
   .totalMoney {
-    font-size: 1.65rem;
+    font-size: 1.75rem;
     margin: 0;
     line-height: 1.25;
   }
