@@ -344,7 +344,7 @@ function preLoad() {
 
   createAndSaveElement(
     "Private Concert with ANY Super Star",
-    1000000,
+    1400000,
     "https://i.imgur.com/qjQqs0v.jpg",
   );
   createAndSaveElement(
