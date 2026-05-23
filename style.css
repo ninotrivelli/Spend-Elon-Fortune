@@ -102,7 +102,8 @@ header img {
   padding: 1.4rem var(--space-page);
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 1000;
+  transform: translateZ(0);
   box-shadow: rgba(0, 0, 0, 0.18) 0px 16px 32px -18px,
     rgba(0, 0, 0, 0.16) 0px 8px 14px -12px;
   margin-bottom: 4rem;
@@ -391,7 +392,7 @@ button {
   .total {
     flex-direction: column;
     gap: 0.4rem;
-    padding: 0.9rem 1rem;
+    padding: 1.05rem 1rem;
     margin-bottom: 2.4rem;
   }
 
@@ -401,7 +402,7 @@ button {
 
   .percentageLeft,
   .totalMoney {
-    font-size: 1.55rem;
+    font-size: 1.65rem;
     margin: 0;
     line-height: 1.25;
   }
