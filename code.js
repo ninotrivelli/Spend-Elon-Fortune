@@ -151,6 +151,25 @@ function getReceiptDate() {
   }).format(new Date());
 }
 
+function formatShortMoney(number) {
+  const scales = [
+    { value: 1000000000000, label: "trillion" },
+    { value: 1000000000, label: "billion" },
+    { value: 1000000, label: "million" },
+    { value: 1000, label: "thousand" },
+  ];
+
+  for (let i = 0; i < scales.length; i++) {
+    let scale = scales[i];
+
+    if (number >= scale.value) {
+      return `${(number / scale.value).toFixed(1)} ${scale.label} USD`;
+    }
+  }
+
+  return `${formatMoney(number)} USD`;
+}
+
 // Class to create unique receipt items
 class ReceiptItem {
   constructor() {
@@ -205,7 +224,8 @@ function updateReceipt() {
     <p class="receipt__date">${getReceiptDate()}</p>
   </div>`;
   let receipt = "";
-  let total = formatMoney(ELON_FORTUNE - elonFortune);
+  let totalSpent = ELON_FORTUNE - elonFortune;
+  let total = formatMoney(totalSpent);
 
   for (let i = 0; i < receiptItemsArr.length; i++) {
     let itemX = receiptItemsArr[i];
@@ -222,6 +242,7 @@ function updateReceipt() {
     title +
     (receipt || `<p class="receipt__empty">No purchases yet</p>`) +
     `<p class="receipt__total">Total: $${total}</p>
+    <p class="receipt__totalText">(${formatShortMoney(totalSpent)})</p>
     <p class="receipt__percentage">You only spent ${(
       100 - totalPercentage
     ).toFixed(6)}% of the total</p>`;
