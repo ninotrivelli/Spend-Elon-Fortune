@@ -268,6 +268,13 @@ button {
   text-align: right;
 }
 
+.receipt__percentage {
+  margin-top: 0.7rem;
+  color: #60594e;
+  font-size: 1.4rem !important;
+  text-align: right;
+}
+
 .print-receipt-container {
   display: flex;
   justify-content: center;
@@ -342,6 +349,10 @@ button {
 
   .receipt__total {
     font-size: 1.6rem !important;
+  }
+
+  .receipt__percentage {
+    font-size: 1.2rem !important;
   }
 }
 

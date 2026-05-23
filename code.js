@@ -221,7 +221,10 @@ function updateReceipt() {
   document.querySelector("#receipt-container").innerHTML =
     title +
     (receipt || `<p class="receipt__empty">No purchases yet</p>`) +
-    `<p class="receipt__total">Total: $${total}</p>`;
+    `<p class="receipt__total">Total: $${total}</p>
+    <p class="receipt__percentage">You only spent ${(
+      100 - totalPercentage
+    ).toFixed(6)}% of the total</p>`;
 }
 
 updateReceipt();
