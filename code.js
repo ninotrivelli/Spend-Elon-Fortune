@@ -235,12 +235,12 @@ function preLoad() {
   createAndSaveElement("AirPods Pro", 249, "https://i.imgur.com/9QtYXwu.jpg");
 
   createAndSaveElement(
-    "Nintendo Switch",
-    299,
+    "Nintendo Switch 2",
+    499,
     "https://i.imgur.com/NjB1B10.jpg",
   );
-  createAndSaveElement("PS5", 499, "https://i.imgur.com/0GPFIYa.jpg");
-  createAndSaveElement("Xbox Series X", 499, "https://i.imgur.com/B9ePUN9.jpg");
+  createAndSaveElement("PS5", 599, "https://i.imgur.com/0GPFIYa.jpg");
+  createAndSaveElement("Xbox Series X", 599, "https://i.imgur.com/B9ePUN9.jpg");
   createAndSaveElement(
     "Two sticks of RAM 2026 (64gb DDR5)",
     899,
