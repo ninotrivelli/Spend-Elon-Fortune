@@ -365,8 +365,8 @@ function preLoad() {
   );
   createAndSaveElement(
     "Ford F150 Raptor 2026",
-    65900,
-    "https://i.imgur.com/SaSBjQ7.jpg",
+    88900,
+    "https://i.imgur.com/eupga7U.jpeg",
   );
   createAndSaveElement(
     "Tesla Model S Plaid",
