@@ -268,18 +268,19 @@ button {
   text-align: right;
 }
 
-.btn-print {
-  display: block;
-
-  text-align: center;
+.print-receipt-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 5rem;
 }
 
-.btn-print button {
+.btn-print {
   background-color: rgba(83, 90, 95, 1);
   color: white;
+  min-width: 180px;
 }
 
-.btn-print button:hover {
+.btn-print:hover {
   background-color: rgb(125, 135, 143);
   color: white;
 }
@@ -341,5 +342,43 @@ button {
 
   .receipt__total {
     font-size: 1.6rem !important;
+  }
+}
+
+@media print {
+  @page {
+    margin: 1.4cm;
+  }
+
+  body {
+    background: white;
+  }
+
+  body * {
+    visibility: hidden;
+  }
+
+  #receipt-container,
+  #receipt-container * {
+    visibility: visible;
+  }
+
+  #receipt-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 1.6rem;
+    color: #000;
+    background: #fff;
+    border: 1px solid #999;
+    box-shadow: none;
+  }
+
+  #receipt-container::before,
+  #receipt-container::after {
+    display: none;
   }
 }

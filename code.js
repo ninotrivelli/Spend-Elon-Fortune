@@ -6,6 +6,7 @@ let buyButtons = document.querySelectorAll("#buy");
 let sellButtons = document.querySelectorAll("#sell");
 const appContainer = document.querySelector(".app-container");
 const fortuneElements = document.querySelectorAll("[data-elon-fortune]");
+const printReceiptButton = document.querySelector("#printReceipt");
 
 // Default data
 const ELON_FORTUNE = 650000000000;
@@ -26,6 +27,12 @@ appContainer.addEventListener("click", (e) => {
     sellItem(element);
   }
 });
+
+if (printReceiptButton) {
+  printReceiptButton.addEventListener("click", () => {
+    window.print();
+  });
+}
 
 // Buy item
 function buyItem(element) {
@@ -218,14 +225,6 @@ function updateReceipt() {
 }
 
 updateReceipt();
-
-// Function to print
-function printSection(el) {
-  let printsection = document.getElementById(el).innerHTML;
-  document.body.innerHTML = printsection;
-
-  window.print();
-}
 
 // Element class - preload data - generate html elements
 
