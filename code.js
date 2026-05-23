@@ -320,18 +320,6 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    "Big AI Data Center",
-    5000000000,
-    "https://i.imgur.com/bKAjsIC.png",
-  );
-
-  createAndSaveElement(
-    "Mars Colony Starter Pack",
-    200000000000,
-    "https://i.imgur.com/f6L2XZQ.png",
-  );
-
-  createAndSaveElement(
     "All World Cup Final Tickets",
     80000000,
     "https://i.imgur.com/3xVMNBm.png",
@@ -490,6 +478,12 @@ function preLoad() {
   );
 
   createAndSaveElement(
+    "Mars Colony Starter Pack",
+    200000000000,
+    "https://i.imgur.com/f6L2XZQ.png",
+  );
+
+  createAndSaveElement(
     "NFL Team (Average)",
     3000000000,
     "https://i.imgur.com/stpt2ZG.jpg",
@@ -543,6 +537,12 @@ function preLoad() {
     "L.A Mega Mansion (8 bd, 20 ba)",
     65000000,
     "https://i.imgur.com/iGbwSSM.jpg",
+  );
+
+  createAndSaveElement(
+    "Big AI Data Center",
+    5000000000,
+    "https://i.imgur.com/bKAjsIC.png",
   );
 
   createAndSaveElement(
