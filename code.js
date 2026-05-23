@@ -381,7 +381,7 @@ function preLoad() {
   );
 
   createAndSaveElement(
-    "Tesla Roadster (available 2026)",
+    "Tesla Roadster (available 2027)",
     200000,
     "https://i.imgur.com/bX4SeTv.jpg",
   );
