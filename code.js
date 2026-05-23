@@ -136,6 +136,14 @@ function updateFortuneText() {
   });
 }
 
+function getReceiptDate() {
+  return new Intl.DateTimeFormat("en-US", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  }).format(new Date());
+}
+
 // Class to create unique receipt items
 class ReceiptItem {
   constructor() {
@@ -185,7 +193,10 @@ function updateReceiptItem(receiptItem) {
 
 // Function to create recipt (iterara por el array y mostrara los objetos en una lista)
 function updateReceipt() {
-  let title = `<h1>Receipt</h1>`;
+  let title = `<div class="receipt__header">
+    <h1>Receipt</h1>
+    <p class="receipt__date">${getReceiptDate()}</p>
+  </div>`;
   let receipt = "";
   let total = formatMoney(ELON_FORTUNE - elonFortune);
 
@@ -193,13 +204,20 @@ function updateReceipt() {
     let itemX = receiptItemsArr[i];
 
     if (itemX.amount !== 0) {
-      receipt += `<p>${itemX.name} x <strong> ${itemX.amount}</strong>..............$ ${itemX.total}</p>`;
+      receipt += `<div class="receipt__row">
+        <span>${itemX.name} x <strong>${itemX.amount}</strong></span>
+        <span>$${itemX.total}</span>
+      </div>`;
     }
   }
 
   document.querySelector("#receipt-container").innerHTML =
-    title + receipt + `<p class="totalRecipt">Total is: $ ${total}</p>`;
+    title +
+    (receipt || `<p class="receipt__empty">No purchases yet</p>`) +
+    `<p class="receipt__total">Total: $${total}</p>`;
 }
+
+updateReceipt();
 
 // Function to print
 function printSection(el) {
