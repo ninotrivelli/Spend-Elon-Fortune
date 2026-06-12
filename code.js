@@ -9,7 +9,7 @@ const fortuneElements = document.querySelectorAll("[data-elon-fortune]");
 const printReceiptButton = document.querySelector("#printReceipt");
 
 // Default data
-const ELON_FORTUNE = 650000000000;
+const ELON_FORTUNE = 1005000000000;
 let elonFortune = ELON_FORTUNE;
 let totalPercentage = 100;
 
